@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-10-18 wo 17:37 -->
+<!-- 2023-10-18 wo 17:41 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Master Project</title>
@@ -202,14 +202,14 @@
 
 <script>
 // @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
-org_html_manager.set("TOC_DEPTH", "3");
+org_html_manager.set("TOC_DEPTH", "6");
 org_html_manager.set("LINK_HOME", "");
 org_html_manager.set("LINK_UP", "");
 org_html_manager.set("LOCAL_TOC", "0");
 org_html_manager.set("VIEW_BUTTONS", "0");
 org_html_manager.set("MOUSE_HINT", "underline");
 org_html_manager.set("FIXED_TOC", "0");
-org_html_manager.set("TOC", "0");
+org_html_manager.set("TOC", "1");
 org_html_manager.set("VIEW", "overview");
 org_html_manager.setup();  // activate after the parameters are set
 // @license-end
@@ -254,80 +254,361 @@ org_html_manager.setup();  // activate after the parameters are set
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgdc2902c">1. papers</a>
+<li><a href="#orgf829da6">1. papers</a>
 <ul>
-<li><a href="#org5c5f64f">1.1. scheduling</a>
+<li><a href="#org832d2fc">1.1. scheduling</a>
 <ul>
-<li><a href="#org97cafdb">1.1.1. Zhang: Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning</a></li>
-<li><a href="#org71a43e7">1.1.2. Han &amp; Yang: Research on Adaptive Job Shop Scheduling Problems Based on Dueling Double DQN</a></li>
-<li><a href="#org1257d2c">1.1.3. Tassel: A Reinforcement Learning Environment For Job-Shop Scheduling</a></li>
-<li><a href="#org8636998">1.1.4. mips</a></li>
-<li><a href="#org97486d4">1.1.5. TRIANA Bosman PhD thesis</a></li>
-<li><a href="#org3f438d4">1.1.6. pinedo chapter 7 - job shops</a></li>
-<li><a href="#org9fa6a73">1.1.7. pinedo chapter 15 - adv. general purpose procedures</a></li>
-<li><a href="#orge672505">1.1.8. search terms</a></li>
-<li><a href="#org7b69bc6">1.1.9. less relevant</a></li>
-<li><a href="#org28912e6">1.1.10. Integer and Combinatorial Optimization</a></li>
-</ul>
-</li>
-<li><a href="#orgffe8b52">1.2. cop with rl</a>
+<li><a href="#orgf21c370">1.1.1. Zhang: Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning</a></li>
+<li><a href="#org5346c63">1.1.2. Han &amp; Yang: Research on Adaptive Job Shop Scheduling Problems Based on Dueling Double DQN</a></li>
+<li><a href="#org6030d92">1.1.3. Tassel: A Reinforcement Learning Environment For Job-Shop Scheduling</a>
 <ul>
-<li><a href="#org03dbf12">1.2.1. Deep reinforcement learning for transportation network combinatorial optimization: A survey</a></li>
-<li><a href="#orgdb627df">1.2.2. How to Build a Graph-Based Deep Learning Architecture in Traffic Domain: A Survey</a></li>
-<li><a href="#org532e462">1.2.3. Solving Mixed Integer Programs Using Neural Networks</a></li>
-<li><a href="#org4b571ac">1.2.4. Reinforcement Learning for Integer Programming: Learning to Cut</a></li>
-<li><a href="#org232fd6d">1.2.5. Learning self-play agents for combinatorial optimization problems</a></li>
-</ul>
-</li>
-<li><a href="#orgf0e2481">1.3. reinforcement learning</a>
+<li><a href="#org7fa2556">1.1.3.1. code</a></li>
+<li><a href="#orgcc3971f">1.1.3.2. search-space reduction</a></li>
+<li><a href="#orgeb3ab75">1.1.3.3. reward</a></li>
+<li><a href="#orgefb3d27">1.1.3.4. algorithm</a></li>
+<li><a href="#org50a178f">1.1.3.5. experiments</a></li>
+<li><a href="#orgacc0fbb">1.1.3.6. follow-up (order swapping): rl for scheduling with order swapping</a>
 <ul>
-<li><a href="#org44c5531">1.3.1. MARL book</a></li>
-<li><a href="#org6c32f6e">1.3.2. reinforce</a></li>
-<li><a href="#org3157417">1.3.3. Disentangling Epistemic and Aleatoric Uncertainty in Reinforcement Learning</a></li>
-</ul>
-</li>
-<li><a href="#org71128f7">1.4. traffic</a>
-<ul>
-<li><a href="#orgb7b1936">1.4.1. Boon &amp; Timmerman platoon forming</a></li>
-<li><a href="#org3f9a87c">1.4.2. Oblakova</a></li>
-<li><a href="#orgef835e8">1.4.3. Noaeen survey</a></li>
-<li><a href="#org723d5f4">1.4.4. Hua Wei</a></li>
-</ul>
-</li>
-<li><a href="#org6e570de">1.5. context</a>
-<ul>
-<li><a href="#org4c4e4f3">1.5.1. topics</a></li>
-<li><a href="#orga3cf5e3">1.5.2. links</a></li>
+<li><a href="#org4c86070">1.1.3.6.1. journal ranking: https://www.scopus.com/sourceid/21101109601#tabs=1</a></li>
+<li><a href="#org1822277">1.1.3.6.2. scaliro: https://www.scaliro.de/fleetengine</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org46de410">2. questions</a>
+<li><a href="#org61e37c8">1.1.4. mips</a>
 <ul>
-<li><a href="#org446abfe">2.1. cutting planes</a></li>
+<li><a href="#orgb468be8">1.1.4.1. blocking and no-wait</a>
+<ul>
+<li><a href="#org9044c16">1.1.4.1.1. paper</a></li>
+<li><a href="#org8ed2e4a">1.1.4.1.2. blocking</a></li>
+<li><a href="#org4a64e64">1.1.4.1.3. no-wait</a></li>
 </ul>
 </li>
-<li><a href="#org4198e1a">3. work</a>
+<li><a href="#org4c7b259">1.1.4.2. Lamorgese, Mannino (2019): <span class="underline">path&amp;cycle</span> method (non-compact formulation for job-shop)</a>
 <ul>
-<li><a href="#org117f4d2">3.1. mip formulation</a>
+<li><a href="#org8c93586">1.1.4.2.1. [17] Lamorgese, Mannino (2015): real-time train dispatching</a>
 <ul>
-<li><a href="#org50727f9">3.1.1. scaling up</a></li>
-<li><a href="#org6643119">3.1.2. unit testing</a></li>
-<li><a href="#org7040285">3.1.3. entrypoints processing time</a></li>
+<li><a href="#org864d772">1.1.4.2.1.1. decomposition</a></li>
 </ul>
 </li>
-<li><a href="#org22dd891">3.2. rl formulation</a>
+<li><a href="#org7564e83">1.1.4.2.2. [18] Lamorgese, Mannino (2016): extends the above paper</a>
 <ul>
-<li><a href="#orgfb3523a">3.2.1. rl formulation</a></li>
-<li><a href="#org9336096">3.2.2. marl</a></li>
+<li><a href="#orgb310839">1.1.4.2.2.1. similar to my idea of combining variables?</a></li>
 </ul>
 </li>
-<li><a href="#orge1d6660">3.3. network editor</a>
+</ul>
+</li>
+<li><a href="#orgaf85b33">1.1.4.3. Sartor, Mannino, Bach (2019): combinatorial learning in traffic</a>
 <ul>
-<li><a href="#org079e004">3.3.1. vis-network</a></li>
-<li><a href="#orgc83caed">3.3.2. DataSet</a></li>
-<li><a href="#org4358fb1">3.3.3. react-graph-vis wrapper</a></li>
-<li><a href="#orgcc08653">3.3.4. vis-network-react</a></li>
+<li><a href="#org79e5176">1.1.4.3.1. [10] Mannino, Sartor (2018): path&amp;cycle for air traffic</a></li>
+<li><a href="#org33eace5">1.1.4.3.2. 1. introduction</a></li>
+<li><a href="#org2f72291">1.1.4.3.3. 2. natural formulation</a></li>
+<li><a href="#orgb7d9327">1.1.4.3.4. 3. path&amp;cycle and re-optimization</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgbacf66d">1.1.5. TRIANA Bosman PhD thesis</a>
+<ul>
+<li><a href="#org397d822">1.1.5.1. (approximate) dynamic programming (partial &ldquo;planning&rdquo; states)</a></li>
+<li><a href="#org10405c0">1.1.5.2. column generation</a></li>
+</ul>
+</li>
+<li><a href="#org562141d">1.1.6. pinedo chapter 7 - job shops</a></li>
+<li><a href="#org090eb96">1.1.7. pinedo chapter 15 - adv. general purpose procedures</a>
+<ul>
+<li><a href="#orgbd4e24d">1.1.7.1. A Reinforcement Learning Approach to Job-shop Scheduling (referenced by Pinedo)</a></li>
+<li><a href="#orgc13a2cd">1.1.7.2. 15.1 beam search</a></li>
+<li><a href="#org0e7a015">1.1.7.3. 15.2 decomposition methods and rolling horizon procedures</a>
+<ul>
+<li><a href="#org0930e37">1.1.7.3.1. machine-based</a></li>
+<li><a href="#org13462a9">1.1.7.3.2. job-based</a></li>
+<li><a href="#orga126189">1.1.7.3.3. time-based</a></li>
+<li><a href="#org9e60488">1.1.7.3.4. hybrid</a></li>
+</ul>
+</li>
+<li><a href="#orgc319357">1.1.7.4. 15.3 constraint programming</a></li>
+<li><a href="#orge4d5e07">1.1.7.5. 15.4 market-based and agent-based procedures</a></li>
+<li><a href="#orgeca87a3">1.1.7.6. 15.5 procedures for scheduling problems with multiple objectives</a></li>
+</ul>
+</li>
+<li><a href="#orga7bd8a6">1.1.8. search terms</a>
+<ul>
+<li><a href="#org434c8f1">1.1.8.1. <span class="underline">platoon forming algorithms</span> (don&rsquo;t forget this one!)</a></li>
+<li><a href="#org06a1b64">1.1.8.2. online job shop</a></li>
+<li><a href="#orgaef1400">1.1.8.3. flexible job shop scheduling (with parallel machines)</a></li>
+<li><a href="#orge520dcc">1.1.8.4. paperswithcode.com</a></li>
+<li><a href="#org643dca7">1.1.8.5. job shop with finite buffers</a></li>
+<li><a href="#org2d96438">1.1.8.6. <span class="todo TODO">TODO</span> Taillard - Benchmarks for basic scheduling problems</a>
+<ul>
+<li><a href="#org972bab9">1.1.8.6.1. cited by many interesting works with reinforcement learning</a>
+<ul>
+<li><a href="#org849933c">1.1.8.6.1.1. example</a></li>
+<li><a href="#orgcb19faf">1.1.8.6.1.2. this one</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org22b2f9d">1.1.9. less relevant</a>
+<ul>
+<li><a href="#orgf381f84">1.1.9.1. Scheduling vehicles with spatial conflicts (planes at airport)</a></li>
+</ul>
+</li>
+<li><a href="#org64b3f19">1.1.10. Integer and Combinatorial Optimization</a></li>
+</ul>
+</li>
+<li><a href="#org16d4f1b">1.2. cop with rl</a>
+<ul>
+<li><a href="#org4adb5af">1.2.1. Deep reinforcement learning for transportation network combinatorial optimization: A survey</a></li>
+<li><a href="#orgafbd163">1.2.2. How to Build a Graph-Based Deep Learning Architecture in Traffic Domain: A Survey</a></li>
+<li><a href="#orga3ced01">1.2.3. Solving Mixed Integer Programs Using Neural Networks</a></li>
+<li><a href="#orgb112199">1.2.4. Reinforcement Learning for Integer Programming: Learning to Cut</a></li>
+<li><a href="#orgc1f1bc6">1.2.5. Learning self-play agents for combinatorial optimization problems</a></li>
+</ul>
+</li>
+<li><a href="#org1237d84">1.3. reinforcement learning</a>
+<ul>
+<li><a href="#orga3f8335">1.3.1. MARL book</a>
+<ul>
+<li><a href="#org2694619">1.3.1.1. 1. introduction</a></li>
+<li><a href="#orgc845044">1.3.1.2. 2. reinforcement learning</a></li>
+<li><a href="#org2b9b562">1.3.1.3. 3. games: models of multi-agent interaction</a></li>
+<li><a href="#orgfcf92da">1.3.1.4. 4. solution concepts for games</a></li>
+<li><a href="#org331af0c">1.3.1.5. 5. marl in games: first steps and challenges</a></li>
+<li><a href="#orga8608cb">1.3.1.6. 6. marl: foundational algorithms</a></li>
+</ul>
+</li>
+<li><a href="#org1f25bee">1.3.2. reinforce</a></li>
+<li><a href="#orgd10e3f0">1.3.3. Disentangling Epistemic and Aleatoric Uncertainty in Reinforcement Learning</a></li>
+</ul>
+</li>
+<li><a href="#org17f38ea">1.4. traffic</a>
+<ul>
+<li><a href="#org1ddafd4">1.4.1. Boon &amp; Timmerman platoon forming</a>
+<ul>
+<li><a href="#org2aa5597">1.4.1.1. 2. Model formulation</a>
+<ul>
+<li><a href="#org266c1d5">1.4.1.1.1. 2.1 Platoon forming algorithms</a></li>
+</ul>
+</li>
+<li><a href="#orgdbc1567">1.4.1.2. 3. Speed profile algorithms</a></li>
+</ul>
+</li>
+<li><a href="#orgf15ae9d">1.4.2. Oblakova</a>
+<ul>
+<li><a href="#org62e93fc">1.4.2.1. Chapter 4 for MAP construction</a></li>
+</ul>
+</li>
+<li><a href="#orgbac0225">1.4.3. Noaeen survey</a>
+<ul>
+<li><a href="#orgb4afcde">1.4.3.1. 5.1 common future works and research opportunities</a></li>
+<li><a href="#orgefef9bb">1.4.3.2. 5.2 key findings</a>
+<ul>
+<li><a href="#org18ed003">1.4.3.2.1. using different rl methods for different research topics in NTSC</a></li>
+<li><a href="#orgbdbd567">1.4.3.2.2. using various state, action, and reward elements in rl methods</a></li>
+<li><a href="#orgbb4f9a1">1.4.3.2.3. using and extending the idea of independent rl</a></li>
+<li><a href="#org8602d14">1.4.3.2.4. using deep rl and hierarchical rl methods in large-scale networks</a></li>
+<li><a href="#org8821450">1.4.3.2.5. using deep rl for arterial networks</a></li>
+<li><a href="#orgbe0a090">1.4.3.2.6. automatically achieving coordination along arterial without any prior knowledge using rl</a></li>
+<li><a href="#orge784604">1.4.3.2.7. using different function approximation (e.g. GAN) in rl methods</a></li>
+<li><a href="#org6341c32">1.4.3.2.8. establishing an appropirate tradeoff between optimality and scalability</a></li>
+<li><a href="#orgc1cd1be">1.4.3.2.9. defining manageable state-space, action-space, and reard function</a></li>
+<li><a href="#orge2f609a">1.4.3.2.10. reducing the problem space</a></li>
+<li><a href="#org05b5f97">1.4.3.2.11. defining multiple reward functions for differen traffic situations</a></li>
+<li><a href="#orgc3034cd">1.4.3.2.12. using real traffic data, relaistic networks, and large-scale networks, and considering traffic heterogeneity</a></li>
+<li><a href="#org0c802a3">1.4.3.2.13. using rl and sensorgrid</a></li>
+<li><a href="#org035314b">1.4.3.2.14. integratin the concepts, methods, and frameworks from other fields with rl, such as jta( for coordinated tsc problems ), pro-cep (for predicting future system states), cpt (as a human-centered rl), immune network (for disturbance management)</a></li>
+<li><a href="#orge3434ca">1.4.3.2.15. proposing or extending theorectical rl methods/models with feasibility assessment in ntsc</a></li>
+<li><a href="#org2731b64">1.4.3.2.16. using rl in combination with traffic theories</a></li>
+<li><a href="#org4e91e81">1.4.3.2.17. using rl as a core or combined method in integration with other methods</a></li>
+<li><a href="#org91b07f6">1.4.3.2.18. using rl in the integrated traffic systems/networks, including ramp metering, variable message signs, networks of signalized intersections, arterials, and freeways</a></li>
+<li><a href="#orge913ff3">1.4.3.2.19. using statistical relational techniques, such as imitation learning</a></li>
+<li><a href="#org0facc1e">1.4.3.2.20. using transfer learning in rl</a></li>
+<li><a href="#org725b6f2">1.4.3.2.21. using rl in signalized roundabouts, specifically in congested networks</a></li>
+<li><a href="#org5cd34ab">1.4.3.2.22. using rl in perimeter or cordon control</a></li>
+<li><a href="#org01d6bcd">1.4.3.2.23. focusing on explainability when using rl</a></li>
+<li><a href="#org790ae21">1.4.3.2.24. cloud/edge/fog-based rl</a></li>
+<li><a href="#orgf0e9cfb">1.4.3.2.25. using rl for public transit, whether with or without public transit priority</a></li>
+<li><a href="#orgaf216b3">1.4.3.2.26. usign rl for emergency vehicles</a></li>
+<li><a href="#org94fa2d2">1.4.3.2.27. using rl in image-based ntsc methods</a></li>
+<li><a href="#orgb17af5e">1.4.3.2.28. using rl in automating streetcar bunching control in transit routes</a></li>
+<li><a href="#org0d81359">1.4.3.2.29. considering the use of rl in mixed environments, including regular, connected and autonomous vehicles</a></li>
+<li><a href="#org4cb4b91">1.4.3.2.30. establishing standard benchmarks for traffic control in traffic simulators</a></li>
+<li><a href="#org5a2af15">1.4.3.2.31. employing online learning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org715a6cf">1.4.4. Hua Wei</a>
+<ul>
+<li><a href="#orgb846cf5">1.4.4.1. IntelliLight</a></li>
+<li><a href="#org4a867b8">1.4.4.2. CoLight: GAN for tsc</a></li>
+<li><a href="#orgdcc1492">1.4.4.3. PressLight</a></li>
+<li><a href="#orgafef638">1.4.4.4. CityFlow (promises to be faster than SUMO)</a>
+<ul>
+<li><a href="#orgdd89c28">1.4.4.4.1. paper</a></li>
+<li><a href="#org43bb3a1">1.4.4.4.2. docs</a></li>
+<li><a href="#org53f9acb">1.4.4.4.3. github</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org967a807">1.5. context</a>
+<ul>
+<li><a href="#org54bf559">1.5.1. topics</a>
+<ul>
+<li><a href="#orgf49ffe8">1.5.1.1. reinforcement learning</a>
+<ul>
+<li><a href="#org76542f2">1.5.1.1.1. theory and methods</a>
+<ul>
+<li><a href="#orge661ed0">1.5.1.1.1.1. model-free</a></li>
+<li><a href="#orgbbba1cf">1.5.1.1.1.2. value-based learning</a></li>
+</ul>
+</li>
+<li><a href="#orgdce8237">1.5.1.1.2. bayesian concepts</a>
+<ul>
+<li><a href="#org1420c8b">1.5.1.1.2.1. prior knowledge</a></li>
+<li><a href="#org4547d84">1.5.1.1.2.2. prior structure in learning</a></li>
+</ul>
+</li>
+<li><a href="#orgb2b15d5">1.5.1.1.3. learning policies from behavior</a>
+<ul>
+<li><a href="#orgef3a056">1.5.1.1.3.1. generating useful behavior</a></li>
+<li><a href="#org01de5fe">1.5.1.1.3.2. exploration vs eploitation</a></li>
+<li><a href="#orge9ca93b">1.5.1.1.3.3. offline reinforcement learning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org2a6c2b3">1.5.1.2. neural networks</a>
+<ul>
+<li><a href="#orgb027fb3">1.5.1.2.1. graph neural network</a></li>
+<li><a href="#org740b976">1.5.1.2.2. graph attentional network</a></li>
+<li><a href="#org03b28ad">1.5.1.2.3. message passing for graph networks</a></li>
+<li><a href="#org7e0c814">1.5.1.2.4. exploring architectures</a></li>
+</ul>
+</li>
+<li><a href="#org955fd9b">1.5.1.3. metaheuristics</a></li>
+<li><a href="#org8b4e984">1.5.1.4. case study</a>
+<ul>
+<li><a href="#orge46c081">1.5.1.4.1. traffic</a>
+<ul>
+<li><a href="#orgfbc2024">1.5.1.4.1.1. SUMO</a></li>
+<li><a href="#org5f8cb72">1.5.1.4.1.2. Vissim</a></li>
+<li><a href="#orgf8dd2df">1.5.1.4.1.3. simple discrete simulation</a></li>
+</ul>
+</li>
+<li><a href="#orgda49e26">1.5.1.4.2. elementary statistics</a></li>
+</ul>
+</li>
+<li><a href="#org5962099">1.5.1.5. engineering and scaling</a>
+<ul>
+<li><a href="#org71d2294">1.5.1.5.1. hardware</a></li>
+<li><a href="#orga534164">1.5.1.5.2. cloud computing</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org220c0ae">1.5.2. links</a>
+<ul>
+<li><a href="#orgb12b80d">1.5.2.1. ai for decision making</a>
+<ul>
+<li><a href="#org12e0c12">1.5.2.1.1. AI Planner of the Future</a></li>
+<li><a href="#orgef78f9f">1.5.2.1.2. Hendrik Baier</a>
+<ul>
+<li><a href="#orga182693">1.5.2.1.2.1. Online Planning in POMDPs with Self-Improving Simulators</a></li>
+</ul>
+</li>
+<li><a href="#org02add1f">1.5.2.1.3. https://tspcompetition.com</a></li>
+</ul>
+</li>
+<li><a href="#org5f69793">1.5.2.2. persons</a>
+<ul>
+<li><a href="#org588dcf8">1.5.2.2.1. Hendrik Baier</a>
+<ul>
+<li><a href="#org0b5bf36">1.5.2.2.1.1. Online Planning in POMDPs with Self-Improving Simulators</a></li>
+<li><a href="#org03c6d90">1.5.2.2.1.2. arxiv</a></li>
+</ul>
+</li>
+<li><a href="#orgcd5945f">1.5.2.2.2. Frans Oliehoek</a>
+<ul>
+<li><a href="#orgcf15ac3">1.5.2.2.2.1. arxiv</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgf05fa35">1.5.2.3. LibSignal</a></li>
+<li><a href="#org9f26831">1.5.2.4. Flow</a></li>
+<li><a href="#orgd904d0f">1.5.2.5. RL-Glue</a></li>
+<li><a href="#org16bb954">1.5.2.6. Bram Grooten thesis</a>
+<ul>
+<li><a href="#org7d006b2">1.5.2.6.1. questions</a>
+<ul>
+<li><a href="#org25d2e7c">1.5.2.6.1.1. why not value-based learning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org4009b34">1.5.2.7. optimization</a>
+<ul>
+<li><a href="#org03a13aa">1.5.2.7.1. classification scheme at https://optimization-online.org/categories/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgcaef1f4">2. questions</a>
+<ul>
+<li><a href="#org59e581d">2.1. cutting planes</a></li>
+</ul>
+</li>
+<li><a href="#orga9eb8ab">3. work</a>
+<ul>
+<li><a href="#org3625022">3.1. mip formulation</a>
+<ul>
+<li><a href="#org1f3a4df">3.1.1. scaling up</a>
+<ul>
+<li><a href="#orgd5773b7">3.1.1.1. instance generator</a></li>
+</ul>
+</li>
+<li><a href="#org59823ba">3.1.2. unit testing</a></li>
+<li><a href="#org933d865">3.1.3. entrypoints processing time</a></li>
+</ul>
+</li>
+<li><a href="#org60abd30">3.2. rl formulation</a>
+<ul>
+<li><a href="#org8be5ffb">3.2.1. rl formulation</a>
+<ul>
+<li><a href="#org3267080">3.2.1.1. intersection actions</a></li>
+<li><a href="#org494b1f5">3.2.1.2. scheduling actions</a></li>
+<li><a href="#org0e610ad">3.2.1.3. guide the optimization process</a></li>
+</ul>
+</li>
+<li><a href="#org9e849df">3.2.2. marl</a>
+<ul>
+<li><a href="#orge831c1e">3.2.2.1. multi-agent RL has some nice ideas</a>
+<ul>
+<li><a href="#orgb0763b8">3.2.2.1.1. macro-actions</a></li>
+<li><a href="#org3a95bba">3.2.2.1.2. max-sum algorithm for negotiating actions across agents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgd428eeb">3.3. network editor</a>
+<ul>
+<li><a href="#org7197b81">3.3.1. vis-network</a></li>
+<li><a href="#org1a5159f">3.3.2. DataSet</a></li>
+<li><a href="#org978337c">3.3.3. react-graph-vis wrapper</a></li>
+<li><a href="#org255aa36">3.3.4. vis-network-react</a></li>
 </ul>
 </li>
 </ul>
@@ -337,22 +618,22 @@ org_html_manager.setup();  // activate after the parameters are set
 </div>
 
 
-<div id="outline-container-orgdc2902c" class="outline-2">
-<h2 id="orgdc2902c"><span class="section-number-2">1.</span> papers</h2>
+<div id="outline-container-orgf829da6" class="outline-2">
+<h2 id="orgf829da6"><span class="section-number-2">1.</span> papers</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org5c5f64f" class="outline-3">
-<h3 id="org5c5f64f"><span class="section-number-3">1.1.</span> scheduling</h3>
+<div id="outline-container-org832d2fc" class="outline-3">
+<h3 id="org832d2fc"><span class="section-number-3">1.1.</span> scheduling</h3>
 <div class="outline-text-3" id="text-1-1">
 </div>
-<div id="outline-container-org97cafdb" class="outline-4">
-<h4 id="org97cafdb"><span class="section-number-4">1.1.1.</span> Zhang: <a href="https://arxiv.org/abs/2010.12367">Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning</a></h4>
+<div id="outline-container-orgf21c370" class="outline-4">
+<h4 id="orgf21c370"><span class="section-number-4">1.1.1.</span> Zhang: <a href="https://arxiv.org/abs/2010.12367">Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning</a></h4>
 </div>
-<div id="outline-container-org71a43e7" class="outline-4">
-<h4 id="org71a43e7"><span class="section-number-4">1.1.2.</span> Han &amp; Yang: <a href="https://ieeexplore.ieee.org/document/9218934">Research on Adaptive Job Shop Scheduling Problems Based on Dueling Double DQN</a></h4>
+<div id="outline-container-org5346c63" class="outline-4">
+<h4 id="org5346c63"><span class="section-number-4">1.1.2.</span> Han &amp; Yang: <a href="https://ieeexplore.ieee.org/document/9218934">Research on Adaptive Job Shop Scheduling Problems Based on Dueling Double DQN</a></h4>
 </div>
-<div id="outline-container-org1257d2c" class="outline-4">
-<h4 id="org1257d2c"><span class="section-number-4">1.1.3.</span> Tassel: <a href="https://arxiv.org/abs/2104.03760">A Reinforcement Learning Environment For Job-Shop Scheduling</a></h4>
+<div id="outline-container-org6030d92" class="outline-4">
+<h4 id="org6030d92"><span class="section-number-4">1.1.3.</span> Tassel: <a href="https://arxiv.org/abs/2104.03760">A Reinforcement Learning Environment For Job-Shop Scheduling</a></h4>
 <div class="outline-text-4" id="text-1-1-3">
 <ul class="org-ul">
 <li>based on time steps</li>
@@ -360,9 +641,11 @@ org_html_manager.setup();  // activate after the parameters are set
 </ul>
 </div>
 
-<ol class="org-ol">
-<li><a id="org590e311"></a><a href="https://github.com/prosysscience/RL-Job-Shop-Scheduling">code</a><br /></li>
-<li><a id="orgd5b6cab"></a>search-space reduction<br />
+<div id="outline-container-org7fa2556" class="outline-5">
+<h5 id="org7fa2556"><span class="section-number-5">1.1.3.1.</span> <a href="https://github.com/prosysscience/RL-Job-Shop-Scheduling">code</a></h5>
+</div>
+<div id="outline-container-orgcc3971f" class="outline-5">
+<h5 id="orgcc3971f"><span class="section-number-5">1.1.3.2.</span> search-space reduction</h5>
 <div class="outline-text-5" id="text-1-1-3-2">
 <ul class="org-ul">
 <li>Provide a binary vector indicating which actions are legal.</li>
@@ -372,30 +655,34 @@ org_html_manager.setup();  // activate after the parameters are set
 <li>Heuristically disallow no-op when a lot of jobs can be allocated.</li>
 </ul>
 </div>
-</li>
-<li><a id="org99d23ad"></a>reward<br />
+</div>
+<div id="outline-container-orgeb3ab75" class="outline-5">
+<h5 id="orgeb3ab75"><span class="section-number-5">1.1.3.3.</span> reward</h5>
 <div class="outline-text-5" id="text-1-1-3-3">
 <p>
 Instead of makespan (dense reward), they formulate a dense reward function based
 on the amount of idle time introduced by the current decision.
 </p>
 </div>
-</li>
-<li><a id="orgbe0fe28"></a>algorithm<br />
+</div>
+<div id="outline-container-orgefb3d27" class="outline-5">
+<h5 id="orgefb3d27"><span class="section-number-5">1.1.3.4.</span> algorithm</h5>
 <div class="outline-text-5" id="text-1-1-3-4">
 <p>
 single agent, actor-critic Proximal Policy Optimization
 </p>
 </div>
-</li>
-<li><a id="org8792bec"></a>experiments<br />
+</div>
+<div id="outline-container-org50a178f" class="outline-5">
+<h5 id="org50a178f"><span class="section-number-5">1.1.3.5.</span> experiments</h5>
 <div class="outline-text-5" id="text-1-1-3-5">
 <p>
 They compare there results with Google OR-Tools <a href="https://developers.google.com/optimization/scheduling/job_shop">Jop Shop Problem</a>.
 </p>
 </div>
-</li>
-<li><a id="orgbb8cf88"></a>follow-up (order swapping): <a href="https://www.mdpi.com/2504-4990/5/2/25">rl for scheduling with order swapping</a><br />
+</div>
+<div id="outline-container-orgacc0fbb" class="outline-5">
+<h5 id="orgacc0fbb"><span class="section-number-5">1.1.3.6.</span> follow-up (order swapping): <a href="https://www.mdpi.com/2504-4990/5/2/25">rl for scheduling with order swapping</a></h5>
 <div class="outline-text-5" id="text-1-1-3-6">
 <p>
 16,17
@@ -413,39 +700,45 @@ steiner tree: 6
 26 (Tassel): to improve generalization capabilities, use DRL with compact state space repr. and dense reward
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="org3169410"></a>journal ranking: <a href="https://www.scopus.com/sourceid/21101109601#tabs=1">https://www.scopus.com/sourceid/21101109601#tabs=1</a><br /></li>
-<li><a id="org2adaa51"></a>scaliro: <a href="https://www.scaliro.de/fleetengine">https://www.scaliro.de/fleetengine</a><br /></li>
-</ol>
-</li>
-</ol>
+<div id="outline-container-org4c86070" class="outline-6">
+<h6 id="org4c86070"><span class="section-number-6">1.1.3.6.1.</span> journal ranking: <a href="https://www.scopus.com/sourceid/21101109601#tabs=1">https://www.scopus.com/sourceid/21101109601#tabs=1</a></h6>
 </div>
-<div id="outline-container-org8636998" class="outline-4">
-<h4 id="org8636998"><span class="section-number-4">1.1.4.</span> mips</h4>
+<div id="outline-container-org1822277" class="outline-6">
+<h6 id="org1822277"><span class="section-number-6">1.1.3.6.2.</span> scaliro: <a href="https://www.scaliro.de/fleetengine">https://www.scaliro.de/fleetengine</a></h6>
+</div>
+</div>
+</div>
+<div id="outline-container-org61e37c8" class="outline-4">
+<h4 id="org61e37c8"><span class="section-number-4">1.1.4.</span> mips</h4>
 <div class="outline-text-4" id="text-1-1-4">
 </div>
-<ol class="org-ol">
-<li><a id="org5370c05"></a>blocking and no-wait<br />
-<ol class="org-ol">
-<li><a id="orgc770dcf"></a><a href="https://www.sciencedirect.com/science/article/pii/S0377221701003381">paper</a><br /></li>
-<li><a id="orgd6b6bc4"></a>blocking<br />
+<div id="outline-container-orgb468be8" class="outline-5">
+<h5 id="orgb468be8"><span class="section-number-5">1.1.4.1.</span> blocking and no-wait</h5>
+<div class="outline-text-5" id="text-1-1-4-1">
+</div>
+<div id="outline-container-org9044c16" class="outline-6">
+<h6 id="org9044c16"><span class="section-number-6">1.1.4.1.1.</span> <a href="https://www.sciencedirect.com/science/article/pii/S0377221701003381">paper</a></h6>
+</div>
+<div id="outline-container-org8ed2e4a" class="outline-6">
+<h6 id="org8ed2e4a"><span class="section-number-6">1.1.4.1.2.</span> blocking</h6>
 <div class="outline-text-6" id="text-1-1-4-1-2">
 <p>
 Occurs when machine cannot continue unless the jobs &ldquo;leaves&rdquo; the machine (i.e.,
 the next operation of the job is started).
 </p>
 </div>
-</li>
-<li><a id="orgcbd717f"></a>no-wait<br />
+</div>
+<div id="outline-container-org4a64e64" class="outline-6">
+<h6 id="org4a64e64"><span class="section-number-6">1.1.4.1.3.</span> no-wait</h6>
 <div class="outline-text-6" id="text-1-1-4-1-3">
 <p>
 Two consecutive operations of a job must be processed without interruption.
 </p>
 </div>
-</li>
-</ol>
-</li>
-<li><a id="orgb526d77"></a>Lamorgese, Mannino (2019): <span class="underline">path&amp;cycle</span> method (non-compact formulation for job-shop)<br />
+</div>
+</div>
+<div id="outline-container-org4c7b259" class="outline-5">
+<h5 id="org4c7b259"><span class="section-number-5">1.1.4.2.</span> Lamorgese, Mannino (2019): <span class="underline">path&amp;cycle</span> method (non-compact formulation for job-shop)</h5>
 <div class="outline-text-5" id="text-1-1-4-2">
 <p>
 <b>A non-compact formulation for job-shop scheduling problems in traffic management</b>
@@ -462,8 +755,8 @@ constraints.&rdquo;
 </p>
 </div>
 
-<ol class="org-ol">
-<li><a id="org73e257f"></a>[17] Lamorgese, Mannino (2015): real-time train dispatching<br />
+<div id="outline-container-org8c93586" class="outline-6">
+<h6 id="org8c93586"><span class="section-number-6">1.1.4.2.1.</span> [17] Lamorgese, Mannino (2015): real-time train dispatching</h6>
 <div class="outline-text-6" id="text-1-1-4-2-1">
 <p>
 An Exact Decomposition Approach for the Real-Time Train Dispatching Problem
@@ -473,8 +766,8 @@ An Exact Decomposition Approach for the Real-Time Train Dispatching Problem
 <li>big-M and time-indexed methods are common</li>
 </ul>
 </div>
-<ol class="org-ol">
-<li><a id="orgda13328"></a>decomposition<br />
+<div id="outline-container-org864d772" class="outline-7">
+<h7 id="org864d772"><span class="section-number-7">1.1.4.2.1.1.</span> decomposition</h7>
 <div class="outline-text-7" id="text-1-1-4-2-1-1">
 <ul class="org-ul">
 <li>master/slave: Line Dispatching (LD) and Station Dispatching (SD)
@@ -482,17 +775,17 @@ Note, we do not have such a station dispatching problem, our problem is similar 
 <li>combinatorial Benders&rsquo; cuts</li>
 </ul>
 </div>
-</li>
-</ol>
-</li>
-<li><a id="org78edcc4"></a>[18] Lamorgese, Mannino (2016): extends the above paper<br />
+</div>
+</div>
+<div id="outline-container-org7564e83" class="outline-6">
+<h6 id="org7564e83"><span class="section-number-6">1.1.4.2.2.</span> [18] Lamorgese, Mannino (2016): extends the above paper</h6>
 <div class="outline-text-6" id="text-1-1-4-2-2">
 <p>
 Optimal Train Dispatching by Benders&rsquo;-like reformulation
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="org0da4a0b"></a>similar to my idea of combining variables?<br />
+<div id="outline-container-orgb310839" class="outline-7">
+<h7 id="orgb310839"><span class="section-number-7">1.1.4.2.2.1.</span> similar to my idea of combining variables?</h7>
 <div class="outline-text-7" id="text-1-1-4-2-2-1">
 <p>
 I want to combine decision variables for vehicles for which we know/determined that they will be &ldquo;following each other&rdquo; (order does not change) on a particular part of their shared route.
@@ -520,12 +813,11 @@ Instead of &ldquo;meet at c&rdquo; (\(y\) variables), they now use &ldquo;meet b
 <li>lazily add constraints for conflicting pairs of opposite/follower trains</li>
 </ul>
 </div>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a id="org88f8588"></a>Sartor, Mannino, Bach (2019): combinatorial learning in traffic<br />
+</div>
+</div>
+</div>
+<div id="outline-container-orgaf85b33" class="outline-5">
+<h5 id="orgaf85b33"><span class="section-number-5">1.1.4.3.</span> Sartor, Mannino, Bach (2019): combinatorial learning in traffic</h5>
 <div class="outline-text-5" id="text-1-1-4-3">
 <p>
 <a href="https://link.springer.com/chapter/10.1007/978-3-030-37599-7_32">Combinatorial Learning in Traffic Management</a>
@@ -540,9 +832,11 @@ Instead of &ldquo;meet at c&rdquo; (\(y\) variables), they now use &ldquo;meet b
 management</a>, but could not find the PDF of that publication)
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="org641351f"></a>[10] Mannino, Sartor (2018): path&amp;cycle for air traffic<br /></li>
-<li><a id="org0ea5c8e"></a>1. introduction<br />
+<div id="outline-container-org79e5176" class="outline-6">
+<h6 id="org79e5176"><span class="section-number-6">1.1.4.3.1.</span> [10] Mannino, Sartor (2018): path&amp;cycle for air traffic</h6>
+</div>
+<div id="outline-container-org33eace5" class="outline-6">
+<h6 id="org33eace5"><span class="section-number-6">1.1.4.3.2.</span> 1. introduction</h6>
 <div class="outline-text-6" id="text-1-1-4-3-2">
 <ul class="org-ul">
 <li>[11] formal unifying framework for re-optimization</li>
@@ -573,9 +867,10 @@ management</a>, but could not find the PDF of that publication)
 (in respect to its original schedule) by at least x seconds.&rdquo;</li>
 </ul>
 </div>
-</li>
+</div>
 
-<li><a id="orgc4b5e11"></a>2. natural formulation<br />
+<div id="outline-container-org2f72291" class="outline-6">
+<h6 id="org2f72291"><span class="section-number-6">1.1.4.3.3.</span> 2. natural formulation</h6>
 <div class="outline-text-6" id="text-1-1-4-3-3">
 <ul class="org-ul">
 <li>planes <i>meeting</i> in <i>sectors</i></li>
@@ -590,21 +885,20 @@ I find their notation for the disjunction [meet in sector, f before g, g before 
 Note that our formulation is kind of the same, but without the option to meet.
 </p>
 </div>
-</li>
+</div>
 
-<li><a id="orgd2bd0b2"></a>3. path&amp;cycle and re-optimization<br />
+<div id="outline-container-orgb7d9327" class="outline-6">
+<h6 id="orgb7d9327"><span class="section-number-6">1.1.4.3.4.</span> 3. path&amp;cycle and re-optimization</h6>
 <div class="outline-text-6" id="text-1-1-4-3-4">
 <ul class="org-ul">
 <li>disjunctive graph</li>
 </ul>
 </div>
-</li>
-</ol>
-</li>
-</ol>
 </div>
-<div id="outline-container-org97486d4" class="outline-4">
-<h4 id="org97486d4"><span class="section-number-4">1.1.5.</span> TRIANA Bosman PhD thesis</h4>
+</div>
+</div>
+<div id="outline-container-orgbacf66d" class="outline-4">
+<h4 id="orgbacf66d"><span class="section-number-4">1.1.5.</span> TRIANA Bosman PhD thesis</h4>
 <div class="outline-text-4" id="text-1-1-5">
 <p>
 contains some interesting pointers (approximiate DP, column generation)
@@ -616,128 +910,156 @@ subset of the jobs (particularly related to my own ideas about how we could
 formulate scheduling as a RL problem)</li>
 </ul>
 </div>
-<ol class="org-ol">
-<li><a id="org61dc785"></a>(approximate) dynamic programming (partial &ldquo;planning&rdquo; states)<br /></li>
-<li><a id="org36b38a6"></a>column generation<br /></li>
-</ol>
+<div id="outline-container-org397d822" class="outline-5">
+<h5 id="org397d822"><span class="section-number-5">1.1.5.1.</span> (approximate) dynamic programming (partial &ldquo;planning&rdquo; states)</h5>
 </div>
-<div id="outline-container-org3f438d4" class="outline-4">
-<h4 id="org3f438d4"><span class="section-number-4">1.1.6.</span> pinedo chapter 7 - job shops</h4>
+<div id="outline-container-org10405c0" class="outline-5">
+<h5 id="org10405c0"><span class="section-number-5">1.1.5.2.</span> column generation</h5>
 </div>
-<div id="outline-container-org9fa6a73" class="outline-4">
-<h4 id="org9fa6a73"><span class="section-number-4">1.1.7.</span> pinedo chapter 15 - adv. general purpose procedures</h4>
+</div>
+<div id="outline-container-org562141d" class="outline-4">
+<h4 id="org562141d"><span class="section-number-4">1.1.6.</span> pinedo chapter 7 - job shops</h4>
+</div>
+<div id="outline-container-org090eb96" class="outline-4">
+<h4 id="org090eb96"><span class="section-number-4">1.1.7.</span> pinedo chapter 15 - adv. general purpose procedures</h4>
 <div class="outline-text-4" id="text-1-1-7">
 </div>
-<ol class="org-ol">
-<li><a id="orgbbb1504"></a><a href="https://www.ijcai.org/Proceedings/95-2/Papers/013.pdf">A Reinforcement Learning Approach to Job-shop Scheduling</a> (referenced by Pinedo)<br /></li>
-<li><a id="org78a2933"></a>15.1 beam search<br /></li>
-<li><a id="org838bef9"></a>15.2 decomposition methods and rolling horizon procedures<br />
-<ol class="org-ol">
-<li><a id="org0d4a8c1"></a>machine-based<br /></li>
-<li><a id="org2dd1ad9"></a>job-based<br /></li>
-<li><a id="org04c4baf"></a>time-based<br /></li>
-<li><a id="org64fe074"></a>hybrid<br /></li>
-</ol>
-</li>
-<li><a id="org4109b82"></a>15.3 constraint programming<br /></li>
-<li><a id="org4aa6f98"></a>15.4 market-based and agent-based procedures<br /></li>
-<li><a id="orge78547b"></a>15.5 procedures for scheduling problems with multiple objectives<br /></li>
-</ol>
+<div id="outline-container-orgbd4e24d" class="outline-5">
+<h5 id="orgbd4e24d"><span class="section-number-5">1.1.7.1.</span> <a href="https://www.ijcai.org/Proceedings/95-2/Papers/013.pdf">A Reinforcement Learning Approach to Job-shop Scheduling</a> (referenced by Pinedo)</h5>
 </div>
-<div id="outline-container-orge672505" class="outline-4">
-<h4 id="orge672505"><span class="section-number-4">1.1.8.</span> search terms</h4>
+<div id="outline-container-orgc13a2cd" class="outline-5">
+<h5 id="orgc13a2cd"><span class="section-number-5">1.1.7.2.</span> 15.1 beam search</h5>
+</div>
+<div id="outline-container-org0e7a015" class="outline-5">
+<h5 id="org0e7a015"><span class="section-number-5">1.1.7.3.</span> 15.2 decomposition methods and rolling horizon procedures</h5>
+<div class="outline-text-5" id="text-1-1-7-3">
+</div>
+<div id="outline-container-org0930e37" class="outline-6">
+<h6 id="org0930e37"><span class="section-number-6">1.1.7.3.1.</span> machine-based</h6>
+</div>
+<div id="outline-container-org13462a9" class="outline-6">
+<h6 id="org13462a9"><span class="section-number-6">1.1.7.3.2.</span> job-based</h6>
+</div>
+<div id="outline-container-orga126189" class="outline-6">
+<h6 id="orga126189"><span class="section-number-6">1.1.7.3.3.</span> time-based</h6>
+</div>
+<div id="outline-container-org9e60488" class="outline-6">
+<h6 id="org9e60488"><span class="section-number-6">1.1.7.3.4.</span> hybrid</h6>
+</div>
+</div>
+<div id="outline-container-orgc319357" class="outline-5">
+<h5 id="orgc319357"><span class="section-number-5">1.1.7.4.</span> 15.3 constraint programming</h5>
+</div>
+<div id="outline-container-orge4d5e07" class="outline-5">
+<h5 id="orge4d5e07"><span class="section-number-5">1.1.7.5.</span> 15.4 market-based and agent-based procedures</h5>
+</div>
+<div id="outline-container-orgeca87a3" class="outline-5">
+<h5 id="orgeca87a3"><span class="section-number-5">1.1.7.6.</span> 15.5 procedures for scheduling problems with multiple objectives</h5>
+</div>
+</div>
+<div id="outline-container-orga7bd8a6" class="outline-4">
+<h4 id="orga7bd8a6"><span class="section-number-4">1.1.8.</span> search terms</h4>
 <div class="outline-text-4" id="text-1-1-8">
 </div>
-<ol class="org-ol">
-<li><a id="orga8df9f3"></a><span class="underline">platoon forming algorithms</span> (don&rsquo;t forget this one!)<br /></li>
-<li><a id="orgf459e2e"></a>online job shop<br /></li>
-<li><a id="org0abcef4"></a>flexible job shop scheduling (with parallel machines)<br />
+<div id="outline-container-org434c8f1" class="outline-5">
+<h5 id="org434c8f1"><span class="section-number-5">1.1.8.1.</span> <span class="underline">platoon forming algorithms</span> (don&rsquo;t forget this one!)</h5>
+</div>
+<div id="outline-container-org06a1b64" class="outline-5">
+<h5 id="org06a1b64"><span class="section-number-5">1.1.8.2.</span> online job shop</h5>
+</div>
+<div id="outline-container-orgaef1400" class="outline-5">
+<h5 id="orgaef1400"><span class="section-number-5">1.1.8.3.</span> flexible job shop scheduling (with parallel machines)</h5>
 <div class="outline-text-5" id="text-1-1-8-3">
 <p>
 <a href="https://www.sciencedirect.com/science/article/abs/pii/S037722172300382X">The flexible job shop scheduling problem: A review</a>
 </p>
 </div>
-</li>
-<li><a id="org0c4f9fd"></a>paperswithcode.com<br />
+</div>
+<div id="outline-container-orge520dcc" class="outline-5">
+<h5 id="orge520dcc"><span class="section-number-5">1.1.8.4.</span> paperswithcode.com</h5>
 <div class="outline-text-5" id="text-1-1-8-4">
 <p>
 <a href="https://paperswithcode.com/task/job-shop-scheduling">https://paperswithcode.com/task/job-shop-scheduling</a>
 </p>
 </div>
-</li>
-<li><a id="orgc7b80dd"></a>job shop with finite buffers<br /></li>
-<li><a id="orgfc37ff1"></a><span class="todo TODO">TODO</span> Taillard - <a href="https://www.sciencedirect.com/science/article/abs/pii/037722179390182M?via%3Dihub">Benchmarks for basic scheduling problems</a><br />
-<ol class="org-ol">
-<li><a id="org3b59db4"></a>cited by many interesting works with reinforcement learning<br />
+</div>
+<div id="outline-container-org643dca7" class="outline-5">
+<h5 id="org643dca7"><span class="section-number-5">1.1.8.5.</span> job shop with finite buffers</h5>
+</div>
+<div id="outline-container-org2d96438" class="outline-5">
+<h5 id="org2d96438"><span class="section-number-5">1.1.8.6.</span> <span class="todo TODO">TODO</span> Taillard - <a href="https://www.sciencedirect.com/science/article/abs/pii/037722179390182M?via%3Dihub">Benchmarks for basic scheduling problems</a></h5>
+<div class="outline-text-5" id="text-1-1-8-6">
+</div>
+<div id="outline-container-org972bab9" class="outline-6">
+<h6 id="org972bab9"><span class="section-number-6">1.1.8.6.1.</span> cited by many interesting works with reinforcement learning</h6>
 <div class="outline-text-6" id="text-1-1-8-6-1">
 <p>
 They are of course not all directly related, but contain some interesting
 aspects to consider in my own project, like benchmarking.
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="orga24f6dc"></a><a href="https://www.sciencedirect.com/science/article/pii/S2210650223001724">example</a><br /></li>
-<li><a id="org5656288"></a><a href="https://www.sciencedirect.com/science/article/pii/S0377221722010050">this one</a><br /></li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
+<div id="outline-container-org849933c" class="outline-7">
+<h7 id="org849933c"><span class="section-number-7">1.1.8.6.1.1.</span> <a href="https://www.sciencedirect.com/science/article/pii/S2210650223001724">example</a></h7>
 </div>
-<div id="outline-container-org7b69bc6" class="outline-4">
-<h4 id="org7b69bc6"><span class="section-number-4">1.1.9.</span> less relevant</h4>
+<div id="outline-container-orgcb19faf" class="outline-7">
+<h7 id="orgcb19faf"><span class="section-number-7">1.1.8.6.1.2.</span> <a href="https://www.sciencedirect.com/science/article/pii/S0377221722010050">this one</a></h7>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org22b2f9d" class="outline-4">
+<h4 id="org22b2f9d"><span class="section-number-4">1.1.9.</span> less relevant</h4>
 <div class="outline-text-4" id="text-1-1-9">
 </div>
-<ol class="org-ol">
-<li><a id="org0db7074"></a><a href="https://www.duo.uio.no/bitstream/handle/10852/98936/1/Kloster_2022_Scheduling_vehicles_AAM.pdf">Scheduling vehicles with spatial conflicts</a> (planes at airport)<br />
+<div id="outline-container-orgf381f84" class="outline-5">
+<h5 id="orgf381f84"><span class="section-number-5">1.1.9.1.</span> <a href="https://www.duo.uio.no/bitstream/handle/10852/98936/1/Kloster_2022_Scheduling_vehicles_AAM.pdf">Scheduling vehicles with spatial conflicts</a> (planes at airport)</h5>
 <div class="outline-text-5" id="text-1-1-9-1">
 <p>
 Introduces a general definition for &ldquo;conflict region&rdquo;, in a concurrent positions
 space \(\{(x^a(t), x^b(t)) : t \in [0,H]\}\).
 </p>
 </div>
-</li>
-</ol>
-</div>
-<div id="outline-container-org28912e6" class="outline-4">
-<h4 id="org28912e6"><span class="section-number-4">1.1.10.</span> <a href="https://link.springer.com/referenceworkentry/10.1007/978-1-4419-1153-7_129">Integer and Combinatorial Optimization</a></h4>
 </div>
 </div>
-<div id="outline-container-orgffe8b52" class="outline-3">
-<h3 id="orgffe8b52"><span class="section-number-3">1.2.</span> cop with rl</h3>
+<div id="outline-container-org64b3f19" class="outline-4">
+<h4 id="org64b3f19"><span class="section-number-4">1.1.10.</span> <a href="https://link.springer.com/referenceworkentry/10.1007/978-1-4419-1153-7_129">Integer and Combinatorial Optimization</a></h4>
+</div>
+</div>
+<div id="outline-container-org16d4f1b" class="outline-3">
+<h3 id="org16d4f1b"><span class="section-number-3">1.2.</span> cop with rl</h3>
 <div class="outline-text-3" id="text-1-2">
 </div>
-<div id="outline-container-org03dbf12" class="outline-4">
-<h4 id="org03dbf12"><span class="section-number-4">1.2.1.</span> <a href="https://www.sciencedirect.com/science/article/pii/S0950705121007887?via%3Dihub#b68">Deep reinforcement learning for transportation network combinatorial optimization: A survey</a></h4>
+<div id="outline-container-org4adb5af" class="outline-4">
+<h4 id="org4adb5af"><span class="section-number-4">1.2.1.</span> <a href="https://www.sciencedirect.com/science/article/pii/S0950705121007887?via%3Dihub#b68">Deep reinforcement learning for transportation network combinatorial optimization: A survey</a></h4>
 <div class="outline-text-4" id="text-1-2-1">
 <p>
 Contains list of papers exploring the idea of AlphaGo series to combinatorial optimization.
 </p>
 </div>
 </div>
-<div id="outline-container-orgdb627df" class="outline-4">
-<h4 id="orgdb627df"><span class="section-number-4">1.2.2.</span> <a href="https://ieeexplore.ieee.org/document/9310691">How to Build a Graph-Based Deep Learning Architecture in Traffic Domain: A Survey</a></h4>
+<div id="outline-container-orgafbd163" class="outline-4">
+<h4 id="orgafbd163"><span class="section-number-4">1.2.2.</span> <a href="https://ieeexplore.ieee.org/document/9310691">How to Build a Graph-Based Deep Learning Architecture in Traffic Domain: A Survey</a></h4>
 </div>
-<div id="outline-container-org532e462" class="outline-4">
-<h4 id="org532e462"><span class="section-number-4">1.2.3.</span> <a href="https://arxiv.org/abs/2012.13349">Solving Mixed Integer Programs Using Neural Networks</a></h4>
+<div id="outline-container-orga3ced01" class="outline-4">
+<h4 id="orga3ced01"><span class="section-number-4">1.2.3.</span> <a href="https://arxiv.org/abs/2012.13349">Solving Mixed Integer Programs Using Neural Networks</a></h4>
 </div>
-<div id="outline-container-org4b571ac" class="outline-4">
-<h4 id="org4b571ac"><span class="section-number-4">1.2.4.</span> <a href="https://arxiv.org/abs/1906.04859">Reinforcement Learning for Integer Programming: Learning to Cut</a></h4>
+<div id="outline-container-orgb112199" class="outline-4">
+<h4 id="orgb112199"><span class="section-number-4">1.2.4.</span> <a href="https://arxiv.org/abs/1906.04859">Reinforcement Learning for Integer Programming: Learning to Cut</a></h4>
 </div>
-<div id="outline-container-org232fd6d" class="outline-4">
-<h4 id="org232fd6d"><span class="section-number-4">1.2.5.</span> <a href="https://www.cambridge.org/core/journals/knowledge-engineering-review/article/learning-selfplay-agents-for-combinatorial-optimization-problems/94DCEA2DA13BC51250F30038ECFECA52">Learning self-play agents for combinatorial optimization problems</a></h4>
+<div id="outline-container-orgc1f1bc6" class="outline-4">
+<h4 id="orgc1f1bc6"><span class="section-number-4">1.2.5.</span> <a href="https://www.cambridge.org/core/journals/knowledge-engineering-review/article/learning-selfplay-agents-for-combinatorial-optimization-problems/94DCEA2DA13BC51250F30038ECFECA52">Learning self-play agents for combinatorial optimization problems</a></h4>
 </div>
 </div>
-<div id="outline-container-orgf0e2481" class="outline-3">
-<h3 id="orgf0e2481"><span class="section-number-3">1.3.</span> reinforcement learning</h3>
+<div id="outline-container-org1237d84" class="outline-3">
+<h3 id="org1237d84"><span class="section-number-3">1.3.</span> reinforcement learning</h3>
 <div class="outline-text-3" id="text-1-3">
 </div>
-<div id="outline-container-org44c5531" class="outline-4">
-<h4 id="org44c5531"><span class="section-number-4">1.3.1.</span> <a href="https://www.marl-book.com">MARL book</a></h4>
+<div id="outline-container-orga3f8335" class="outline-4">
+<h4 id="orga3f8335"><span class="section-number-4">1.3.1.</span> <a href="https://www.marl-book.com">MARL book</a></h4>
 <div class="outline-text-4" id="text-1-3-1">
 </div>
-<ol class="org-ol">
-<li><a id="orge8ff547"></a>1. introduction<br />
+<div id="outline-container-org2694619" class="outline-5">
+<h5 id="org2694619"><span class="section-number-5">1.3.1.1.</span> 1. introduction</h5>
 <div class="outline-text-5" id="text-1-3-1-1">
 <p>
 Agents choose actions independently to form a joint action.
@@ -753,15 +1075,17 @@ Challenges:
 <li>Scaling number of agents.</li>
 </ul>
 </div>
-</li>
-<li><a id="org1bf84f3"></a>2. reinforcement learning<br />
+</div>
+<div id="outline-container-orgc845044" class="outline-5">
+<h5 id="orgc845044"><span class="section-number-5">1.3.1.2.</span> 2. reinforcement learning</h5>
 <div class="outline-text-5" id="text-1-3-1-2">
 <p>
 (nothing new compared to Sutton &amp; Barto)
 </p>
 </div>
-</li>
-<li><a id="orgb33cfca"></a>3. games: models of multi-agent interaction<br />
+</div>
+<div id="outline-container-org2b9b562" class="outline-5">
+<h5 id="org2b9b562"><span class="section-number-5">1.3.1.3.</span> 3. games: models of multi-agent interaction</h5>
 <div class="outline-text-5" id="text-1-3-1-3">
 <p>
 Each agent takes a separate action, which together form a <i>joint action</i>.
@@ -795,30 +1119,35 @@ blocks of MDPs.
 <li>general-sum game</li>
 </ul>
 </div>
-</li>
-<li><a id="org821f4f5"></a>4. solution concepts for games<br /></li>
-<li><a id="orga5e9408"></a>5. marl in games: first steps and challenges<br /></li>
-<li><a id="org2f8af52"></a>6. marl: foundational algorithms<br /></li>
-</ol>
 </div>
-<div id="outline-container-org6c32f6e" class="outline-4">
-<h4 id="org6c32f6e"><span class="section-number-4">1.3.2.</span> reinforce</h4>
+<div id="outline-container-orgfcf92da" class="outline-5">
+<h5 id="orgfcf92da"><span class="section-number-5">1.3.1.4.</span> 4. solution concepts for games</h5>
+</div>
+<div id="outline-container-org331af0c" class="outline-5">
+<h5 id="org331af0c"><span class="section-number-5">1.3.1.5.</span> 5. marl in games: first steps and challenges</h5>
+</div>
+<div id="outline-container-orga8608cb" class="outline-5">
+<h5 id="orga8608cb"><span class="section-number-5">1.3.1.6.</span> 6. marl: foundational algorithms</h5>
+</div>
+</div>
+<div id="outline-container-org1f25bee" class="outline-4">
+<h4 id="org1f25bee"><span class="section-number-4">1.3.2.</span> reinforce</h4>
 <div class="outline-text-4" id="text-1-3-2">
 <p>
 <a href="https://mattalanwright.github.io/articles/reinforce/">https://mattalanwright.github.io/articles/reinforce/</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org3157417" class="outline-4">
-<h4 id="org3157417"><span class="section-number-4">1.3.3.</span> <a href="https://arxiv.org/abs/2206.01558">Disentangling Epistemic and Aleatoric Uncertainty in Reinforcement Learning</a></h4>
+<div id="outline-container-orgd10e3f0" class="outline-4">
+<h4 id="orgd10e3f0"><span class="section-number-4">1.3.3.</span> <a href="https://arxiv.org/abs/2206.01558">Disentangling Epistemic and Aleatoric Uncertainty in Reinforcement Learning</a></h4>
 </div>
 </div>
-<div id="outline-container-org71128f7" class="outline-3">
-<h3 id="org71128f7"><span class="section-number-3">1.4.</span> traffic</h3>
+<div id="outline-container-org17f38ea" class="outline-3">
+<h3 id="org17f38ea"><span class="section-number-3">1.4.</span> traffic</h3>
 <div class="outline-text-3" id="text-1-4">
 </div>
-<div id="outline-container-orgb7b1936" class="outline-4">
-<h4 id="orgb7b1936"><span class="section-number-4">1.4.1.</span> Boon &amp; Timmerman platoon forming</h4>
+<div id="outline-container-org1ddafd4" class="outline-4">
+<h4 id="org1ddafd4"><span class="section-number-4">1.4.1.</span> Boon &amp; Timmerman platoon forming</h4>
 <div class="outline-text-4" id="text-1-4-1">
 <p>
 (??, ????)
@@ -828,8 +1157,8 @@ blocks of MDPs.
 <li>speed profile algorithm (minimzing queue lenght vs. energy consumption)</li>
 </ul>
 </div>
-<ol class="org-ol">
-<li><a id="orgf240641"></a>2. Model formulation<br />
+<div id="outline-container-org2aa5597" class="outline-5">
+<h5 id="org2aa5597"><span class="section-number-5">1.4.1.1.</span> 2. Model formulation</h5>
 <div class="outline-text-5" id="text-1-4-1-1">
 <p>
 The PFA control area is larger than SPA control area, because the trajectory
@@ -837,8 +1166,8 @@ needs to be fixed before vehicles enter the SPA area. In the PFA control area,
 crossing times of vehicles may still be rescheduled upon new arrivals.
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="org41529a6"></a>2.1 Platoon forming algorithms<br />
+<div id="outline-container-org266c1d5" class="outline-6">
+<h6 id="org266c1d5"><span class="section-number-6">1.4.1.1.1.</span> 2.1 Platoon forming algorithms</h6>
 <div class="outline-text-6" id="text-1-4-1-1-1">
 <p>
 The platoon forming is based on an exhaustive and gated discipline. Exhaustive
@@ -855,10 +1184,10 @@ variable cycle lenghts. This can be important when considering PFAs in a network
 setting.
 </p>
 </div>
-</li>
-</ol>
-</li>
-<li><a id="orgbf32337"></a>3. Speed profile algorithms<br />
+</div>
+</div>
+<div id="outline-container-orgdbc1567" class="outline-5">
+<h5 id="orgdbc1567"><span class="section-number-5">1.4.1.2.</span> 3. Speed profile algorithms</h5>
 <div class="outline-text-5" id="text-1-4-1-2">
 <p>
 <i>Definition 3.1</i>: A polling policy is regular if arrival does not change the
@@ -889,26 +1218,25 @@ consumption. We wonder whether it is possible to switch between these
 objectives in a continuous fashion.
 </p>
 </div>
-</li>
-</ol>
 </div>
-<div id="outline-container-org3f9a87c" class="outline-4">
-<h4 id="org3f9a87c"><span class="section-number-4">1.4.2.</span> Oblakova</h4>
+</div>
+<div id="outline-container-orgf15ae9d" class="outline-4">
+<h4 id="orgf15ae9d"><span class="section-number-4">1.4.2.</span> Oblakova</h4>
 <div class="outline-text-4" id="text-1-4-2">
 </div>
-<ol class="org-ol">
-<li><a id="org04a178f"></a>Chapter 4 for MAP construction<br /></li>
-</ol>
+<div id="outline-container-org62e93fc" class="outline-5">
+<h5 id="org62e93fc"><span class="section-number-5">1.4.2.1.</span> Chapter 4 for MAP construction</h5>
 </div>
-<div id="outline-container-orgef835e8" class="outline-4">
-<h4 id="orgef835e8"><span class="section-number-4">1.4.3.</span> Noaeen survey</h4>
+</div>
+<div id="outline-container-orgbac0225" class="outline-4">
+<h4 id="orgbac0225"><span class="section-number-4">1.4.3.</span> Noaeen survey</h4>
 <div class="outline-text-4" id="text-1-4-3">
 <p>
 (??, a)
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="org1a4ca2d"></a>5.1 common future works and research opportunities<br />
+<div id="outline-container-orgb4afcde" class="outline-5">
+<h5 id="orgb4afcde"><span class="section-number-5">1.4.3.1.</span> 5.1 common future works and research opportunities</h5>
 <div class="outline-text-5" id="text-1-4-3-1">
 <ul class="org-ul">
 <li>test in real wordl</li>
@@ -919,56 +1247,124 @@ objectives in a continuous fashion.
 <li>online learning</li>
 </ul>
 </div>
-</li>
-<li><a id="orga1eea47"></a>5.2 key findings<br />
-<ol class="org-ol">
-<li><a id="org8f05f8c"></a>using different rl methods for different research topics in NTSC<br /></li>
-<li><a id="org32654dc"></a>using various state, action, and reward elements in rl methods<br /></li>
-<li><a id="org446a928"></a>using and extending the idea of independent rl<br /></li>
-<li><a id="org2547be9"></a>using deep rl and hierarchical rl methods in large-scale networks<br /></li>
-<li><a id="org0acecab"></a>using deep rl for arterial networks<br /></li>
-<li><a id="org6a15b01"></a>automatically achieving coordination along arterial without any prior knowledge using rl<br /></li>
-<li><a id="org9c3e16c"></a>using different function approximation (e.g. GAN) in rl methods<br /></li>
-<li><a id="org6bf58bf"></a>establishing an appropirate tradeoff between optimality and scalability<br /></li>
-<li><a id="orgfa2a869"></a>defining manageable state-space, action-space, and reard function<br /></li>
-<li><a id="org9115ad9"></a>reducing the problem space<br /></li>
-<li><a id="org8c7213e"></a>defining multiple reward functions for differen traffic situations<br /></li>
-<li><a id="org76e44cc"></a>using real traffic data, relaistic networks, and large-scale networks, and considering traffic heterogeneity<br /></li>
-<li><a id="org26b3fea"></a>using rl and sensorgrid<br /></li>
-<li><a id="orgdbb35e0"></a>integratin the concepts, methods, and frameworks from other fields with rl, such as jta( for coordinated tsc problems ), pro-cep (for predicting future system states), cpt (as a human-centered rl), immune network (for disturbance management)<br /></li>
-<li><a id="orgdcb1209"></a>proposing or extending theorectical rl methods/models with feasibility assessment in ntsc<br /></li>
-<li><a id="org1b03ff1"></a>using rl in combination with traffic theories<br /></li>
-<li><a id="org27af1e3"></a>using rl as a core or combined method in integration with other methods<br /></li>
-<li><a id="orgec9b79d"></a>using rl in the integrated traffic systems/networks, including ramp metering, variable message signs, networks of signalized intersections, arterials, and freeways<br /></li>
-<li><a id="orgdbf7c57"></a>using statistical relational techniques, such as imitation learning<br /></li>
-<li><a id="org8550ce0"></a>using transfer learning in rl<br /></li>
-<li><a id="orgd84faa4"></a>using rl in signalized roundabouts, specifically in congested networks<br /></li>
-<li><a id="orgda4589e"></a>using rl in perimeter or cordon control<br /></li>
-<li><a id="orga026e5a"></a>focusing on explainability when using rl<br /></li>
-<li><a id="org90ed28b"></a>cloud/edge/fog-based rl<br /></li>
-<li><a id="orgdbc879a"></a>using rl for public transit, whether with or without public transit priority<br /></li>
-<li><a id="orga7bf458"></a>usign rl for emergency vehicles<br /></li>
-<li><a id="org0892628"></a>using rl in image-based ntsc methods<br /></li>
-<li><a id="orgf503a65"></a>using rl in automating streetcar bunching control in transit routes<br /></li>
-<li><a id="org9514554"></a>considering the use of rl in mixed environments, including regular, connected and autonomous vehicles<br /></li>
-<li><a id="orge660ad7"></a>establishing standard benchmarks for traffic control in traffic simulators<br /></li>
-<li><a id="org74e5880"></a>employing online learning<br /></li>
-</ol>
-</li>
-</ol>
 </div>
-<div id="outline-container-org723d5f4" class="outline-4">
-<h4 id="org723d5f4"><span class="section-number-4">1.4.4.</span> Hua Wei</h4>
+<div id="outline-container-orgefef9bb" class="outline-5">
+<h5 id="orgefef9bb"><span class="section-number-5">1.4.3.2.</span> 5.2 key findings</h5>
+<div class="outline-text-5" id="text-1-4-3-2">
+</div>
+<div id="outline-container-org18ed003" class="outline-6">
+<h6 id="org18ed003"><span class="section-number-6">1.4.3.2.1.</span> using different rl methods for different research topics in NTSC</h6>
+</div>
+<div id="outline-container-orgbdbd567" class="outline-6">
+<h6 id="orgbdbd567"><span class="section-number-6">1.4.3.2.2.</span> using various state, action, and reward elements in rl methods</h6>
+</div>
+<div id="outline-container-orgbb4f9a1" class="outline-6">
+<h6 id="orgbb4f9a1"><span class="section-number-6">1.4.3.2.3.</span> using and extending the idea of independent rl</h6>
+</div>
+<div id="outline-container-org8602d14" class="outline-6">
+<h6 id="org8602d14"><span class="section-number-6">1.4.3.2.4.</span> using deep rl and hierarchical rl methods in large-scale networks</h6>
+</div>
+<div id="outline-container-org8821450" class="outline-6">
+<h6 id="org8821450"><span class="section-number-6">1.4.3.2.5.</span> using deep rl for arterial networks</h6>
+</div>
+<div id="outline-container-orgbe0a090" class="outline-6">
+<h6 id="orgbe0a090"><span class="section-number-6">1.4.3.2.6.</span> automatically achieving coordination along arterial without any prior knowledge using rl</h6>
+</div>
+<div id="outline-container-orge784604" class="outline-6">
+<h6 id="orge784604"><span class="section-number-6">1.4.3.2.7.</span> using different function approximation (e.g. GAN) in rl methods</h6>
+</div>
+<div id="outline-container-org6341c32" class="outline-6">
+<h6 id="org6341c32"><span class="section-number-6">1.4.3.2.8.</span> establishing an appropirate tradeoff between optimality and scalability</h6>
+</div>
+<div id="outline-container-orgc1cd1be" class="outline-6">
+<h6 id="orgc1cd1be"><span class="section-number-6">1.4.3.2.9.</span> defining manageable state-space, action-space, and reard function</h6>
+</div>
+<div id="outline-container-orge2f609a" class="outline-6">
+<h6 id="orge2f609a"><span class="section-number-6">1.4.3.2.10.</span> reducing the problem space</h6>
+</div>
+<div id="outline-container-org05b5f97" class="outline-6">
+<h6 id="org05b5f97"><span class="section-number-6">1.4.3.2.11.</span> defining multiple reward functions for differen traffic situations</h6>
+</div>
+<div id="outline-container-orgc3034cd" class="outline-6">
+<h6 id="orgc3034cd"><span class="section-number-6">1.4.3.2.12.</span> using real traffic data, relaistic networks, and large-scale networks, and considering traffic heterogeneity</h6>
+</div>
+<div id="outline-container-org0c802a3" class="outline-6">
+<h6 id="org0c802a3"><span class="section-number-6">1.4.3.2.13.</span> using rl and sensorgrid</h6>
+</div>
+<div id="outline-container-org035314b" class="outline-6">
+<h6 id="org035314b"><span class="section-number-6">1.4.3.2.14.</span> integratin the concepts, methods, and frameworks from other fields with rl, such as jta( for coordinated tsc problems ), pro-cep (for predicting future system states), cpt (as a human-centered rl), immune network (for disturbance management)</h6>
+</div>
+<div id="outline-container-orge3434ca" class="outline-6">
+<h6 id="orge3434ca"><span class="section-number-6">1.4.3.2.15.</span> proposing or extending theorectical rl methods/models with feasibility assessment in ntsc</h6>
+</div>
+<div id="outline-container-org2731b64" class="outline-6">
+<h6 id="org2731b64"><span class="section-number-6">1.4.3.2.16.</span> using rl in combination with traffic theories</h6>
+</div>
+<div id="outline-container-org4e91e81" class="outline-6">
+<h6 id="org4e91e81"><span class="section-number-6">1.4.3.2.17.</span> using rl as a core or combined method in integration with other methods</h6>
+</div>
+<div id="outline-container-org91b07f6" class="outline-6">
+<h6 id="org91b07f6"><span class="section-number-6">1.4.3.2.18.</span> using rl in the integrated traffic systems/networks, including ramp metering, variable message signs, networks of signalized intersections, arterials, and freeways</h6>
+</div>
+<div id="outline-container-orge913ff3" class="outline-6">
+<h6 id="orge913ff3"><span class="section-number-6">1.4.3.2.19.</span> using statistical relational techniques, such as imitation learning</h6>
+</div>
+<div id="outline-container-org0facc1e" class="outline-6">
+<h6 id="org0facc1e"><span class="section-number-6">1.4.3.2.20.</span> using transfer learning in rl</h6>
+</div>
+<div id="outline-container-org725b6f2" class="outline-6">
+<h6 id="org725b6f2"><span class="section-number-6">1.4.3.2.21.</span> using rl in signalized roundabouts, specifically in congested networks</h6>
+</div>
+<div id="outline-container-org5cd34ab" class="outline-6">
+<h6 id="org5cd34ab"><span class="section-number-6">1.4.3.2.22.</span> using rl in perimeter or cordon control</h6>
+</div>
+<div id="outline-container-org01d6bcd" class="outline-6">
+<h6 id="org01d6bcd"><span class="section-number-6">1.4.3.2.23.</span> focusing on explainability when using rl</h6>
+</div>
+<div id="outline-container-org790ae21" class="outline-6">
+<h6 id="org790ae21"><span class="section-number-6">1.4.3.2.24.</span> cloud/edge/fog-based rl</h6>
+</div>
+<div id="outline-container-orgf0e9cfb" class="outline-6">
+<h6 id="orgf0e9cfb"><span class="section-number-6">1.4.3.2.25.</span> using rl for public transit, whether with or without public transit priority</h6>
+</div>
+<div id="outline-container-orgaf216b3" class="outline-6">
+<h6 id="orgaf216b3"><span class="section-number-6">1.4.3.2.26.</span> usign rl for emergency vehicles</h6>
+</div>
+<div id="outline-container-org94fa2d2" class="outline-6">
+<h6 id="org94fa2d2"><span class="section-number-6">1.4.3.2.27.</span> using rl in image-based ntsc methods</h6>
+</div>
+<div id="outline-container-orgb17af5e" class="outline-6">
+<h6 id="orgb17af5e"><span class="section-number-6">1.4.3.2.28.</span> using rl in automating streetcar bunching control in transit routes</h6>
+</div>
+<div id="outline-container-org0d81359" class="outline-6">
+<h6 id="org0d81359"><span class="section-number-6">1.4.3.2.29.</span> considering the use of rl in mixed environments, including regular, connected and autonomous vehicles</h6>
+</div>
+<div id="outline-container-org4cb4b91" class="outline-6">
+<h6 id="org4cb4b91"><span class="section-number-6">1.4.3.2.30.</span> establishing standard benchmarks for traffic control in traffic simulators</h6>
+</div>
+<div id="outline-container-org5a2af15" class="outline-6">
+<h6 id="org5a2af15"><span class="section-number-6">1.4.3.2.31.</span> employing online learning</h6>
+</div>
+</div>
+</div>
+<div id="outline-container-org715a6cf" class="outline-4">
+<h4 id="org715a6cf"><span class="section-number-4">1.4.4.</span> Hua Wei</h4>
 <div class="outline-text-4" id="text-1-4-4">
 <p>
 <a href="https://traffic-signal-control.github.io">traffic-signal-control.github.io</a>
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="org9f24175"></a>IntelliLight<br /></li>
-<li><a id="orgad6ff74"></a>CoLight: GAN for tsc<br /></li>
-<li><a id="org882836d"></a>PressLight<br /></li>
-<li><a id="org4f21caa"></a>CityFlow (promises to be faster than SUMO)<br />
+<div id="outline-container-orgb846cf5" class="outline-5">
+<h5 id="orgb846cf5"><span class="section-number-5">1.4.4.1.</span> IntelliLight</h5>
+</div>
+<div id="outline-container-org4a867b8" class="outline-5">
+<h5 id="org4a867b8"><span class="section-number-5">1.4.4.2.</span> CoLight: GAN for tsc</h5>
+</div>
+<div id="outline-container-orgdcc1492" class="outline-5">
+<h5 id="orgdcc1492"><span class="section-number-5">1.4.4.3.</span> PressLight</h5>
+</div>
+<div id="outline-container-orgafef638" class="outline-5">
+<h5 id="orgafef638"><span class="section-number-5">1.4.4.4.</span> CityFlow (promises to be faster than SUMO)</h5>
 <div class="outline-text-5" id="text-1-4-4-4">
 <p>
 It seems that the <a href="https://cityflow.readthedocs.io/en/latest/flow.html">Flow File</a> defines the demand in terms of vehicles that follow a deterministic route, with a fixed time interval in between arrivals.
@@ -978,140 +1374,202 @@ It seems that the <a href="https://cityflow.readthedocs.io/en/latest/flow.html">
 Platoons are not created by default, but the simplicity of the package seems attractive.
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="orgc1b701f"></a><a href="https://arxiv.org/abs/1905.05217">paper</a><br /></li>
-<li><a id="orga1ceb60"></a><a href="https://cityflow.readthedocs.io/en/latest/">docs</a><br /></li>
-<li><a id="org51f3ae9"></a><a href="https://github.com/cityflow-project/CityFlow">github</a><br /></li>
-</ol>
-</li>
-</ol>
+<div id="outline-container-orgdd89c28" class="outline-6">
+<h6 id="orgdd89c28"><span class="section-number-6">1.4.4.4.1.</span> <a href="https://arxiv.org/abs/1905.05217">paper</a></h6>
+</div>
+<div id="outline-container-org43bb3a1" class="outline-6">
+<h6 id="org43bb3a1"><span class="section-number-6">1.4.4.4.2.</span> <a href="https://cityflow.readthedocs.io/en/latest/">docs</a></h6>
+</div>
+<div id="outline-container-org53f9acb" class="outline-6">
+<h6 id="org53f9acb"><span class="section-number-6">1.4.4.4.3.</span> <a href="https://github.com/cityflow-project/CityFlow">github</a></h6>
 </div>
 </div>
-<div id="outline-container-org6e570de" class="outline-3">
-<h3 id="org6e570de"><span class="section-number-3">1.5.</span> context</h3>
+</div>
+</div>
+<div id="outline-container-org967a807" class="outline-3">
+<h3 id="org967a807"><span class="section-number-3">1.5.</span> context</h3>
 <div class="outline-text-3" id="text-1-5">
 </div>
-<div id="outline-container-org4c4e4f3" class="outline-4">
-<h4 id="org4c4e4f3"><span class="section-number-4">1.5.1.</span> topics</h4>
+<div id="outline-container-org54bf559" class="outline-4">
+<h4 id="org54bf559"><span class="section-number-4">1.5.1.</span> topics</h4>
 <div class="outline-text-4" id="text-1-5-1">
 </div>
-<ol class="org-ol">
-<li><a id="org1f3b80c"></a>reinforcement learning<br />
-<ol class="org-ol">
-<li><a id="org32df989"></a>theory and methods<br />
-<ol class="org-ol">
-<li><a id="org39a6373"></a>model-free<br /></li>
-<li><a id="org8167879"></a>value-based learning<br /></li>
-</ol>
-</li>
-<li><a id="org279a8da"></a>bayesian concepts<br />
-<ol class="org-ol">
-<li><a id="orgf9ccd80"></a>prior knowledge<br /></li>
-<li><a id="orgd6aa1b7"></a>prior structure in learning<br /></li>
-</ol>
-</li>
-<li><a id="orge81c018"></a>learning policies from behavior<br />
-<ol class="org-ol">
-<li><a id="org8a2f08d"></a>generating useful behavior<br /></li>
-<li><a id="orgd503333"></a>exploration vs eploitation<br /></li>
-<li><a id="orgcd31ae5"></a>offline reinforcement learning<br /></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a id="org29b88ef"></a>neural networks<br />
-<ol class="org-ol">
-<li><a id="org64ad43e"></a>graph neural network<br /></li>
-<li><a id="org8eac453"></a>graph attentional network<br /></li>
-<li><a id="org6711a62"></a>message passing for graph networks<br /></li>
-<li><a id="org29781ed"></a>exploring architectures<br /></li>
-</ol>
-</li>
-<li><a id="org6a364fb"></a>metaheuristics<br /></li>
-<li><a id="orgb9fb96d"></a>case study<br />
-<ol class="org-ol">
-<li><a id="org1ae98ca"></a>traffic<br />
-<ol class="org-ol">
-<li><a id="orgb8a8983"></a>SUMO<br /></li>
-<li><a id="org46b1343"></a>Vissim<br /></li>
-<li><a id="org6e69de7"></a>simple discrete simulation<br /></li>
-</ol>
-</li>
-<li><a id="orgf6a2ac1"></a>elementary statistics<br /></li>
-</ol>
-</li>
-<li><a id="org10d9fb8"></a>engineering and scaling<br />
-<ol class="org-ol">
-<li><a id="orgdbfc5a3"></a>hardware<br />
+<div id="outline-container-orgf49ffe8" class="outline-5">
+<h5 id="orgf49ffe8"><span class="section-number-5">1.5.1.1.</span> reinforcement learning</h5>
+<div class="outline-text-5" id="text-1-5-1-1">
+</div>
+<div id="outline-container-org76542f2" class="outline-6">
+<h6 id="org76542f2"><span class="section-number-6">1.5.1.1.1.</span> theory and methods</h6>
+<div class="outline-text-6" id="text-1-5-1-1-1">
+</div>
+<div id="outline-container-orge661ed0" class="outline-7">
+<h7 id="orge661ed0"><span class="section-number-7">1.5.1.1.1.1.</span> model-free</h7>
+</div>
+<div id="outline-container-orgbbba1cf" class="outline-7">
+<h7 id="orgbbba1cf"><span class="section-number-7">1.5.1.1.1.2.</span> value-based learning</h7>
+</div>
+</div>
+<div id="outline-container-orgdce8237" class="outline-6">
+<h6 id="orgdce8237"><span class="section-number-6">1.5.1.1.2.</span> bayesian concepts</h6>
+<div class="outline-text-6" id="text-1-5-1-1-2">
+</div>
+<div id="outline-container-org1420c8b" class="outline-7">
+<h7 id="org1420c8b"><span class="section-number-7">1.5.1.1.2.1.</span> prior knowledge</h7>
+</div>
+<div id="outline-container-org4547d84" class="outline-7">
+<h7 id="org4547d84"><span class="section-number-7">1.5.1.1.2.2.</span> prior structure in learning</h7>
+</div>
+</div>
+<div id="outline-container-orgb2b15d5" class="outline-6">
+<h6 id="orgb2b15d5"><span class="section-number-6">1.5.1.1.3.</span> learning policies from behavior</h6>
+<div class="outline-text-6" id="text-1-5-1-1-3">
+</div>
+<div id="outline-container-orgef3a056" class="outline-7">
+<h7 id="orgef3a056"><span class="section-number-7">1.5.1.1.3.1.</span> generating useful behavior</h7>
+</div>
+<div id="outline-container-org01de5fe" class="outline-7">
+<h7 id="org01de5fe"><span class="section-number-7">1.5.1.1.3.2.</span> exploration vs eploitation</h7>
+</div>
+<div id="outline-container-orge9ca93b" class="outline-7">
+<h7 id="orge9ca93b"><span class="section-number-7">1.5.1.1.3.3.</span> offline reinforcement learning</h7>
+</div>
+</div>
+</div>
+<div id="outline-container-org2a6c2b3" class="outline-5">
+<h5 id="org2a6c2b3"><span class="section-number-5">1.5.1.2.</span> neural networks</h5>
+<div class="outline-text-5" id="text-1-5-1-2">
+</div>
+<div id="outline-container-orgb027fb3" class="outline-6">
+<h6 id="orgb027fb3"><span class="section-number-6">1.5.1.2.1.</span> graph neural network</h6>
+</div>
+<div id="outline-container-org740b976" class="outline-6">
+<h6 id="org740b976"><span class="section-number-6">1.5.1.2.2.</span> graph attentional network</h6>
+</div>
+<div id="outline-container-org03b28ad" class="outline-6">
+<h6 id="org03b28ad"><span class="section-number-6">1.5.1.2.3.</span> message passing for graph networks</h6>
+</div>
+<div id="outline-container-org7e0c814" class="outline-6">
+<h6 id="org7e0c814"><span class="section-number-6">1.5.1.2.4.</span> exploring architectures</h6>
+</div>
+</div>
+<div id="outline-container-org955fd9b" class="outline-5">
+<h5 id="org955fd9b"><span class="section-number-5">1.5.1.3.</span> metaheuristics</h5>
+</div>
+<div id="outline-container-org8b4e984" class="outline-5">
+<h5 id="org8b4e984"><span class="section-number-5">1.5.1.4.</span> case study</h5>
+<div class="outline-text-5" id="text-1-5-1-4">
+</div>
+<div id="outline-container-orge46c081" class="outline-6">
+<h6 id="orge46c081"><span class="section-number-6">1.5.1.4.1.</span> traffic</h6>
+<div class="outline-text-6" id="text-1-5-1-4-1">
+</div>
+<div id="outline-container-orgfbc2024" class="outline-7">
+<h7 id="orgfbc2024"><span class="section-number-7">1.5.1.4.1.1.</span> SUMO</h7>
+</div>
+<div id="outline-container-org5f8cb72" class="outline-7">
+<h7 id="org5f8cb72"><span class="section-number-7">1.5.1.4.1.2.</span> Vissim</h7>
+</div>
+<div id="outline-container-orgf8dd2df" class="outline-7">
+<h7 id="orgf8dd2df"><span class="section-number-7">1.5.1.4.1.3.</span> simple discrete simulation</h7>
+</div>
+</div>
+<div id="outline-container-orgda49e26" class="outline-6">
+<h6 id="orgda49e26"><span class="section-number-6">1.5.1.4.2.</span> elementary statistics</h6>
+</div>
+</div>
+<div id="outline-container-org5962099" class="outline-5">
+<h5 id="org5962099"><span class="section-number-5">1.5.1.5.</span> engineering and scaling</h5>
+<div class="outline-text-5" id="text-1-5-1-5">
+</div>
+<div id="outline-container-org71d2294" class="outline-6">
+<h6 id="org71d2294"><span class="section-number-6">1.5.1.5.1.</span> hardware</h6>
 <div class="outline-text-6" id="text-1-5-1-5-1">
 <p>
 Invest in a powerful computer with a decent graphics card.
 </p>
 </div>
-</li>
-<li><a id="orgd1817c0"></a>cloud computing<br />
+</div>
+<div id="outline-container-orga534164" class="outline-6">
+<h6 id="orga534164"><span class="section-number-6">1.5.1.5.2.</span> cloud computing</h6>
 <div class="outline-text-6" id="text-1-5-1-5-2">
 <p>
 Investigate possible cloud computing providers like Azure or AWS.
 </p>
 </div>
-</li>
-</ol>
-</li>
-</ol>
 </div>
-<div id="outline-container-orga3cf5e3" class="outline-4">
-<h4 id="orga3cf5e3"><span class="section-number-4">1.5.2.</span> links</h4>
+</div>
+</div>
+<div id="outline-container-org220c0ae" class="outline-4">
+<h4 id="org220c0ae"><span class="section-number-4">1.5.2.</span> links</h4>
 <div class="outline-text-4" id="text-1-5-2">
 </div>
-<ol class="org-ol">
-<li><a id="orgbe6b5b3"></a><a href="https://www.tue.nl/en/research/research-groups/industrial-engineering/information-systems-ieis/research-areas/ai-for-decision-making">ai for decision making</a><br />
+<div id="outline-container-orgb12b80d" class="outline-5">
+<h5 id="orgb12b80d"><span class="section-number-5">1.5.2.1.</span> <a href="https://www.tue.nl/en/research/research-groups/industrial-engineering/information-systems-ieis/research-areas/ai-for-decision-making">ai for decision making</a></h5>
 <div class="outline-text-5" id="text-1-5-2-1">
 <p>
 TU/e group in Industrial Engineering Department that I apparently never heard of before.
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="orgc4ab193"></a><a href="https://escf.nl/ai-planner-of-the-future/">AI Planner of the Future</a><br /></li>
-<li><a id="org8eb5901"></a><a href="https://www.tue.nl/en/research/researchers/hendrik-baier">Hendrik Baier</a><br />
-<ol class="org-ol">
-<li><a id="org811501a"></a><a href="https://arxiv.org/abs/2201.11404">Online Planning in POMDPs with Self-Improving Simulators</a><br />
+<div id="outline-container-org12e0c12" class="outline-6">
+<h6 id="org12e0c12"><span class="section-number-6">1.5.2.1.1.</span> <a href="https://escf.nl/ai-planner-of-the-future/">AI Planner of the Future</a></h6>
+</div>
+<div id="outline-container-orgef78f9f" class="outline-6">
+<h6 id="orgef78f9f"><span class="section-number-6">1.5.2.1.2.</span> <a href="https://www.tue.nl/en/research/researchers/hendrik-baier">Hendrik Baier</a></h6>
+<div class="outline-text-6" id="text-1-5-2-1-2">
+</div>
+<div id="outline-container-orga182693" class="outline-7">
+<h7 id="orga182693"><span class="section-number-7">1.5.2.1.2.1.</span> <a href="https://arxiv.org/abs/2201.11404">Online Planning in POMDPs with Self-Improving Simulators</a></h7>
 <div class="outline-text-7" id="text-1-5-2-1-2-1">
 <p>
 N.B.: Frans Oliehoek is also author of the &ldquo;POMDP book&rdquo;
 </p>
 </div>
-</li>
-</ol>
-</li>
-<li><a id="org6f6adbe"></a><a href="https://tspcompetition.com">https://tspcompetition.com</a><br /></li>
-</ol>
-</li>
-<li><a id="org4aacc0a"></a>persons<br />
-<ol class="org-ol">
-<li><a id="org33e2e3b"></a><a href="https://www.tue.nl/en/research/researchers/hendrik-baier">Hendrik Baier</a><br />
-<ol class="org-ol">
-<li><a id="org30a320f"></a><a href="https://arxiv.org/abs/2201.11404">Online Planning in POMDPs with Self-Improving Simulators</a><br />
+</div>
+</div>
+<div id="outline-container-org02add1f" class="outline-6">
+<h6 id="org02add1f"><span class="section-number-6">1.5.2.1.3.</span> <a href="https://tspcompetition.com">https://tspcompetition.com</a></h6>
+</div>
+</div>
+<div id="outline-container-org5f69793" class="outline-5">
+<h5 id="org5f69793"><span class="section-number-5">1.5.2.2.</span> persons</h5>
+<div class="outline-text-5" id="text-1-5-2-2">
+</div>
+<div id="outline-container-org588dcf8" class="outline-6">
+<h6 id="org588dcf8"><span class="section-number-6">1.5.2.2.1.</span> <a href="https://www.tue.nl/en/research/researchers/hendrik-baier">Hendrik Baier</a></h6>
+<div class="outline-text-6" id="text-1-5-2-2-1">
+</div>
+<div id="outline-container-org0b5bf36" class="outline-7">
+<h7 id="org0b5bf36"><span class="section-number-7">1.5.2.2.1.1.</span> <a href="https://arxiv.org/abs/2201.11404">Online Planning in POMDPs with Self-Improving Simulators</a></h7>
 <div class="outline-text-7" id="text-1-5-2-2-1-1">
 <p>
 N.B.: Frans Oliehoek is also author of the &ldquo;POMDP book&rdquo;
 </p>
 </div>
-</li>
-<li><a id="org4bfa911"></a><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Baier,+H">arxiv</a><br /></li>
-</ol>
-</li>
-<li><a id="orge633a07"></a>Frans Oliehoek<br />
-<ol class="org-ol">
-<li><a id="orge1ad65e"></a><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Oliehoek,+F+A">arxiv</a><br /></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a id="orgd9eb26f"></a><a href="https://darl-libsignal.github.io">LibSignal</a><br /></li>
-<li><a id="org721129e"></a><a href="https://github.com/flow-project/flow">Flow</a><br /></li>
-<li><a id="org94c8b35"></a><a href="https://sites.google.com/a/rl-community.org/rl-glue/Home?authuser=0">RL-Glue</a><br /></li>
-<li><a id="org9740847"></a>Bram Grooten thesis<br />
+</div>
+<div id="outline-container-org03c6d90" class="outline-7">
+<h7 id="org03c6d90"><span class="section-number-7">1.5.2.2.1.2.</span> <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Baier,+H">arxiv</a></h7>
+</div>
+</div>
+<div id="outline-container-orgcd5945f" class="outline-6">
+<h6 id="orgcd5945f"><span class="section-number-6">1.5.2.2.2.</span> Frans Oliehoek</h6>
+<div class="outline-text-6" id="text-1-5-2-2-2">
+</div>
+<div id="outline-container-orgcf15ac3" class="outline-7">
+<h7 id="orgcf15ac3"><span class="section-number-7">1.5.2.2.2.1.</span> <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Oliehoek,+F+A">arxiv</a></h7>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf05fa35" class="outline-5">
+<h5 id="orgf05fa35"><span class="section-number-5">1.5.2.3.</span> <a href="https://darl-libsignal.github.io">LibSignal</a></h5>
+</div>
+<div id="outline-container-org9f26831" class="outline-5">
+<h5 id="org9f26831"><span class="section-number-5">1.5.2.4.</span> <a href="https://github.com/flow-project/flow">Flow</a></h5>
+</div>
+<div id="outline-container-orgd904d0f" class="outline-5">
+<h5 id="orgd904d0f"><span class="section-number-5">1.5.2.5.</span> <a href="https://sites.google.com/a/rl-community.org/rl-glue/Home?authuser=0">RL-Glue</a></h5>
+</div>
+<div id="outline-container-org16bb954" class="outline-5">
+<h5 id="org16bb954"><span class="section-number-5">1.5.2.6.</span> Bram Grooten thesis</h5>
 <div class="outline-text-5" id="text-1-5-2-6">
 <ul class="org-ul">
 <li><a href="https://gitlab.tue.nl/jim-portegies/student-projects/bram-grooten">code</a></li>
@@ -1121,35 +1579,37 @@ N.B.: Frans Oliehoek is also author of the &ldquo;POMDP book&rdquo;
 that TU/e didn&rsquo;t acquire a supercomputer, but has a dedicated support team.</li>
 </ul>
 </div>
-<ol class="org-ol">
-<li><a id="org9b681c6"></a>questions<br />
-<ol class="org-ol">
-<li><a id="org0a73166"></a>why not value-based learning<br />
+<div id="outline-container-org7d006b2" class="outline-6">
+<h6 id="org7d006b2"><span class="section-number-6">1.5.2.6.1.</span> questions</h6>
+<div class="outline-text-6" id="text-1-5-2-6-1">
+</div>
+<div id="outline-container-org25d2e7c" class="outline-7">
+<h7 id="org25d2e7c"><span class="section-number-7">1.5.2.6.1.1.</span> why not value-based learning</h7>
 <div class="outline-text-7" id="text-1-5-2-6-1-1">
 <p>
 Or was the choice for policy-based learning mainly motivated by interest?
 </p>
 </div>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a id="org900ae80"></a>optimization<br />
-<ol class="org-ol">
-<li><a id="orge3b4fa2"></a>classification scheme at <a href="https://optimization-online.org/categories/">https://optimization-online.org/categories/</a><br /></li>
-</ol>
-</li>
-</ol>
 </div>
 </div>
 </div>
-<div id="outline-container-org46de410" class="outline-2">
-<h2 id="org46de410"><span class="section-number-2">2.</span> questions</h2>
+<div id="outline-container-org4009b34" class="outline-5">
+<h5 id="org4009b34"><span class="section-number-5">1.5.2.7.</span> optimization</h5>
+<div class="outline-text-5" id="text-1-5-2-7">
+</div>
+<div id="outline-container-org03a13aa" class="outline-6">
+<h6 id="org03a13aa"><span class="section-number-6">1.5.2.7.1.</span> classification scheme at <a href="https://optimization-online.org/categories/">https://optimization-online.org/categories/</a></h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcaef1f4" class="outline-2">
+<h2 id="orgcaef1f4"><span class="section-number-2">2.</span> questions</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org446abfe" class="outline-3">
-<h3 id="org446abfe"><span class="section-number-3">2.1.</span> cutting planes</h3>
+<div id="outline-container-org59e581d" class="outline-3">
+<h3 id="org59e581d"><span class="section-number-3">2.1.</span> cutting planes</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 Can we define cutting planes based on the observation that choosing some
@@ -1162,16 +1622,16 @@ this particular problem.
 </div>
 </div>
 </div>
-<div id="outline-container-org4198e1a" class="outline-2">
-<h2 id="org4198e1a"><span class="section-number-2">3.</span> work</h2>
+<div id="outline-container-orga9eb8ab" class="outline-2">
+<h2 id="orga9eb8ab"><span class="section-number-2">3.</span> work</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org117f4d2" class="outline-3">
-<h3 id="org117f4d2"><span class="section-number-3">3.1.</span> mip formulation</h3>
+<div id="outline-container-org3625022" class="outline-3">
+<h3 id="org3625022"><span class="section-number-3">3.1.</span> mip formulation</h3>
 <div class="outline-text-3" id="text-3-1">
 </div>
-<div id="outline-container-org50727f9" class="outline-4">
-<h4 id="org50727f9"><span class="section-number-4">3.1.1.</span> scaling up</h4>
+<div id="outline-container-org1f3a4df" class="outline-4">
+<h4 id="org1f3a4df"><span class="section-number-4">3.1.1.</span> scaling up</h4>
 <div class="outline-text-4" id="text-3-1-1">
 <p>
 We would like to investigate the running time of solving the MIP as a function of
@@ -1196,8 +1656,8 @@ We would like to investigate the running time of solving the MIP as a function o
 </ul></li>
 </ul>
 </div>
-<ol class="org-ol">
-<li><a id="orgd98b51d"></a>instance generator<br />
+<div id="outline-container-orgd5773b7" class="outline-5">
+<h5 id="orgd5773b7"><span class="section-number-5">3.1.1.1.</span> instance generator</h5>
 <div class="outline-text-5" id="text-3-1-1-1">
 <p>
 for every entrypoint: generate route
@@ -1208,19 +1668,18 @@ for every route: generate vehicles
 decide release date pattern (with platoons) and total number of vehicles
 </p>
 </div>
-</li>
-</ol>
 </div>
-<div id="outline-container-org6643119" class="outline-4">
-<h4 id="org6643119"><span class="section-number-4">3.1.2.</span> unit testing</h4>
+</div>
+<div id="outline-container-org59823ba" class="outline-4">
+<h4 id="org59823ba"><span class="section-number-4">3.1.2.</span> unit testing</h4>
 <div class="outline-text-4" id="text-3-1-2">
 <p>
 automated unit testing on some basic instances
 </p>
 </div>
 </div>
-<div id="outline-container-org7040285" class="outline-4">
-<h4 id="org7040285"><span class="section-number-4">3.1.3.</span> entrypoints processing time</h4>
+<div id="outline-container-org933d865" class="outline-4">
+<h4 id="org933d865"><span class="section-number-4">3.1.3.</span> entrypoints processing time</h4>
 <div class="outline-text-4" id="text-3-1-3">
 <p>
 Entrypoints have no processing time, but these jobs need to travel along the
@@ -1231,12 +1690,12 @@ is necessary. Make this clearer.
 </div>
 </div>
 </div>
-<div id="outline-container-org22dd891" class="outline-3">
-<h3 id="org22dd891"><span class="section-number-3">3.2.</span> rl formulation</h3>
+<div id="outline-container-org60abd30" class="outline-3">
+<h3 id="org60abd30"><span class="section-number-3">3.2.</span> rl formulation</h3>
 <div class="outline-text-3" id="text-3-2">
 </div>
-<div id="outline-container-orgfb3523a" class="outline-4">
-<h4 id="orgfb3523a"><span class="section-number-4">3.2.1.</span> rl formulation</h4>
+<div id="outline-container-org8be5ffb" class="outline-4">
+<h4 id="org8be5ffb"><span class="section-number-4">3.2.1.</span> rl formulation</h4>
 <div class="outline-text-4" id="text-3-2-1">
 <p>
 Two possible flavors come to mind for letting rl schedule vehicles directly. The
@@ -1259,8 +1718,8 @@ approach than determining the <i>machine criticality</i> based on some index fun
 (as seen in Pinedo 7.3, page 204).
 </p>
 </div>
-<ol class="org-ol">
-<li><a id="org067a3db"></a>intersection actions<br />
+<div id="outline-container-org3267080" class="outline-5">
+<h5 id="org3267080"><span class="section-number-5">3.2.1.1.</span> intersection actions</h5>
 <div class="outline-text-5" id="text-3-2-1-1">
 <p>
 set <i>phase</i> of intersection
@@ -1271,8 +1730,9 @@ set <i>phase</i> of intersection
 the approach most often seen in studies with SUMO
 </p>
 </div>
-</li>
-<li><a id="orgf27f0c7"></a>scheduling actions<br />
+</div>
+<div id="outline-container-org494b1f5" class="outline-5">
+<h5 id="org494b1f5"><span class="section-number-5">3.2.1.2.</span> scheduling actions</h5>
 <div class="outline-text-5" id="text-3-2-1-2">
 <p>
 assign vehicle to free intersection time slot
@@ -1283,25 +1743,29 @@ assign vehicle to free intersection time slot
 in my opinion, the most obvious for scheduling problems as a better alternative to rolling-horizon approaches with mathematical programming
 </p>
 </div>
-</li>
-<li><a id="orgdf20918"></a>guide the optimization process<br />
+</div>
+<div id="outline-container-org0e610ad" class="outline-5">
+<h5 id="org0e610ad"><span class="section-number-5">3.2.1.3.</span> guide the optimization process</h5>
 <div class="outline-text-5" id="text-3-2-1-3">
 <p>
 decide which machine to reschedule in the shifting bottleneck heuristic for job shop
 </p>
 </div>
-</li>
-</ol>
 </div>
-<div id="outline-container-org9336096" class="outline-4">
-<h4 id="org9336096"><span class="section-number-4">3.2.2.</span> marl</h4>
+</div>
+<div id="outline-container-org9e849df" class="outline-4">
+<h4 id="org9e849df"><span class="section-number-4">3.2.2.</span> marl</h4>
 <div class="outline-text-4" id="text-3-2-2">
 </div>
-<ol class="org-ol">
-<li><a id="orgf122ed9"></a>multi-agent RL has some nice ideas<br />
-<ol class="org-ol">
-<li><a id="org030bbde"></a>macro-actions<br /></li>
-<li><a id="orgb7353e6"></a>max-sum algorithm for negotiating actions across agents<br />
+<div id="outline-container-orge831c1e" class="outline-5">
+<h5 id="orge831c1e"><span class="section-number-5">3.2.2.1.</span> multi-agent RL has some nice ideas</h5>
+<div class="outline-text-5" id="text-3-2-2-1">
+</div>
+<div id="outline-container-orgb0763b8" class="outline-6">
+<h6 id="orgb0763b8"><span class="section-number-6">3.2.2.1.1.</span> macro-actions</h6>
+</div>
+<div id="outline-container-org3a95bba" class="outline-6">
+<h6 id="org3a95bba"><span class="section-number-6">3.2.2.1.2.</span> max-sum algorithm for negotiating actions across agents</h6>
 <div class="outline-text-6" id="text-3-2-2-1-2">
 <p>
 We also are interested in some kind of negotiation scheme among intersections,
@@ -1309,27 +1773,25 @@ since the time slot assignment at an intersection determines the input for other
 intersections.
 </p>
 </div>
-</li>
-</ol>
-</li>
-</ol>
 </div>
 </div>
-<div id="outline-container-orge1d6660" class="outline-3">
-<h3 id="orge1d6660"><span class="section-number-3">3.3.</span> network editor</h3>
+</div>
+</div>
+<div id="outline-container-orgd428eeb" class="outline-3">
+<h3 id="orgd428eeb"><span class="section-number-3">3.3.</span> network editor</h3>
 <div class="outline-text-3" id="text-3-3">
 </div>
-<div id="outline-container-org079e004" class="outline-4">
-<h4 id="org079e004"><span class="section-number-4">3.3.1.</span> <a href="https://visjs.github.io/vis-network/docs/network/">vis-network</a></h4>
+<div id="outline-container-org7197b81" class="outline-4">
+<h4 id="org7197b81"><span class="section-number-4">3.3.1.</span> <a href="https://visjs.github.io/vis-network/docs/network/">vis-network</a></h4>
 </div>
-<div id="outline-container-orgc83caed" class="outline-4">
-<h4 id="orgc83caed"><span class="section-number-4">3.3.2.</span> <a href="https://visjs.github.io/vis-data/data/dataset.html">DataSet</a></h4>
+<div id="outline-container-org1a5159f" class="outline-4">
+<h4 id="org1a5159f"><span class="section-number-4">3.3.2.</span> <a href="https://visjs.github.io/vis-data/data/dataset.html">DataSet</a></h4>
 </div>
-<div id="outline-container-org4358fb1" class="outline-4">
-<h4 id="org4358fb1"><span class="section-number-4">3.3.3.</span> <a href="https://github.com/crubier/react-graph-vis">react-graph-vis wrapper</a></h4>
+<div id="outline-container-org978337c" class="outline-4">
+<h4 id="org978337c"><span class="section-number-4">3.3.3.</span> <a href="https://github.com/crubier/react-graph-vis">react-graph-vis wrapper</a></h4>
 </div>
-<div id="outline-container-orgcc08653" class="outline-4">
-<h4 id="orgcc08653"><span class="section-number-4">3.3.4.</span> <a href="https://github.com/visjs/vis-network-react/tree/master">vis-network-react</a></h4>
+<div id="outline-container-org255aa36" class="outline-4">
+<h4 id="org255aa36"><span class="section-number-4">3.3.4.</span> <a href="https://github.com/visjs/vis-network-react/tree/master">vis-network-react</a></h4>
 <div class="outline-text-4" id="text-3-3-4">
 <p>
 We need to apply useRef and useEffect from React to allow this custom DOM manipulation.
@@ -1341,7 +1803,7 @@ We need to apply useRef and useEffect from React to allow this custom DOM manipu
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Jeroen van Riel</p>
-<p class="date">Created: 2023-10-18 wo 17:37</p>
+<p class="date">Created: 2023-10-18 wo 17:41</p>
 </div>
 </body>
 </html>
