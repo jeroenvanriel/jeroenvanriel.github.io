@@ -1,0 +1,34 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+
+/* Custom link styling with icons to external websites */
+.post-content a:hover {
+  text-decoration: underline;
+}
+.post-content a[href^="http"]:not([href*="jeroenvanriel.github.io"])::after {
+  font-family: FontAwesome;
+  content: "\f08e";
+  font-size: 0.65em;
+  margin-left: 0.3em;
+
+  position: relative;
+  top: -0.15em;
+}
+
+/* Footer columns: left column smaller than right column */
+.footer-col-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.footer-col:first-child {
+  flex: 0.8;
+}
+.footer-col:last-child {
+  flex: 1.0;
+}

@@ -20,8 +20,11 @@
 
 title: Built & Understood
 email:
+author:
+  name: Jeroen van Riel
+  email:
 description: >- # this means to ignore newlines
-  Personal website of Jeroen van Riel, documenting personal projects at the intersection of applied mathematics and software engineering.
+  Personal website, documenting some personal projects and my journey of life-long learning, mostly related in some way to software engineering and applied mathematics.
 url: "https://jeroenvanriel.github.io"
 baseurl: ""
 github_username:  jeroenvanriel
@@ -30,11 +33,15 @@ github_username:  jeroenvanriel
 theme: minima
 minima:
   skin: solarized-light
+  show_excerpts: true
 
   social_links:
     - title: GitHub
       icon: github
       url: https://github.com/jeroenvanriel
+    - title: LinkedIn
+      icon: linkedin
+      url: https://linkedin.com/in/jeroen-van-riel
 
 plugins:
   - jekyll-feed
