@@ -2,7 +2,7 @@
 layout: post
 title:  "3D traffic visualization with SUMO networks"
 date:   2026-04-30 13:07:34 +0200
-categories: traffic
+categories: blog
 ---
 
 I built a browser-based 3D visualization tool for SUMO traffic simulations that turns raw trajectory data into interactive, cinematic scenes—without requiring a game engine. I will briefly walk you through the app and highlight some features. Source code can be found at the [project page on GitHub](https://github.com/jeroenvanriel/traffic-viz), where you may also find precompiled binaries.
