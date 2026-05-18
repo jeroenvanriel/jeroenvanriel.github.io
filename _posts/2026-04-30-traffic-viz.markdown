@@ -9,7 +9,7 @@ I built a browser-based 3D visualization tool for SUMO traffic simulations that 
 
 <img src="/assets/images/video.gif"
      alt="Animation of 3D visualization of vehicles moving through grid-like road network of intersections."
-     style="display: block; margin: 30px auto 0 auto; max-width:80%;">
+     style="display: block; margin: 30px auto 0 auto; width: 100%;">
 
 ## Showcasing research on autonomous intersections
 
@@ -30,7 +30,7 @@ After selecting a particular scene, you get into the main *scene view*, where th
 
 <img src="/assets/images/scene-view.png"
      alt="Main scene view."
-     style="display: block; margin: 30px auto 0 auto; max-width:80%;">
+     style="display: block; margin: 30px auto 0 auto; width: 100%;">
 
 ### Generating and editing scenes
 
@@ -46,7 +46,7 @@ As data format for the vehicle trajectories, we chose to use SUMO's [floating ca
 
 <img src="/assets/images/netedit.png"
      alt="Editing a network file in SUMO's netedit tool."
-     style="display: block; margin: 30px auto 0 auto; max-width:80%;">
+     style="display: block; margin: 30px auto 0 auto; width: 100%;">
 
 ### Camera paths and video recording
 
@@ -60,7 +60,7 @@ Currently, this feature only works in Chrome; I have had problems getting this t
 
 <img src="/assets/images/camera-editing.png"
      alt="Editing a camera path."
-     style="display: block; margin: 30px auto 0 auto; max-width:80%;">
+     style="display: block; margin: 30px auto 0 auto; width: 100%;">
 
 ### Vehicle model customization
 
@@ -70,7 +70,7 @@ Since most 3D models found online do not already have the proper dimensions and 
 
 <img src="/assets/images/model-configurator.png"
      alt="Model configurator."
-     style="display: block; margin: 30px auto 0 auto; max-width:80%;">
+     style="display: block; margin: 30px auto 0 auto; width: 100%;">
 
 ### Some nice visual details
 
