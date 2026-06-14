@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Empty page for screenshots"
+categories: blog
+---
+
+Empty page for taking screenshot.
+
+
+<div style="display: block; height: 2000px;" />

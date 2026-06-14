@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Setting up a raspberry pi to remotely wake-on-lan my pc"
+date:   2026-05-04 14:08:00 +0200
+categories: home-automation
+---
+
+Ever wondered about using your home pc remotely, to offload computational expensive experiments? Instead of always leaving your pc on, consider using the following setup to enable remote wake-on-lan, using a raspberry pi with a small web application.
+
+## The motivation: Jupyter notebook on home pc
+
+## Remote wake-on-lan
+
+setup a tailscale network or vpn
+
+With the tailscale app, this also works from your phone.
+
