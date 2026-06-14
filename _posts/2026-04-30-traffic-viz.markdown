@@ -7,7 +7,7 @@ categories: blog
 
 I built a browser-based 3D visualization tool for SUMO traffic simulations that turns raw trajectory data into interactive, cinematic scenes—without requiring a game engine. I will briefly walk you through the app and highlight some features. Source code can be found at the [project page on GitHub](https://github.com/jeroenvanriel/traffic-viz), where you may also find precompiled binaries.
 
-<img src="/assets/images/video.gif"
+<img src="/assets/images/video-crop.gif"
      alt="Animation of 3D visualization of vehicles moving through grid-like road network of intersections."
      style="display: block; margin: 30px auto 0 auto; width: 100%;">
 
