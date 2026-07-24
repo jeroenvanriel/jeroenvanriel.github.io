@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generating and drawing SUMO networks"
-date:   2026-05-02 12:26:00 +0200
+date:   2026-07-24 11:00:00 +0200
 categories: blog
 ---
 
