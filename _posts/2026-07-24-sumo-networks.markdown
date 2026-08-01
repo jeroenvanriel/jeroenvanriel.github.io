@@ -111,7 +111,8 @@ An example of a valid edge file is:
     <edge id="-E3" from="J4" to="J2" numLanes="1" />
     <edge id="E1" from="J1" to="J2" numLanes="4" />
     <edge id="E2" from="J2" to="J3" numLanes="3" />
-    <edge id="E3" from="J2" to="J4" numLanes="2" shape="-11.52,-31.32 -2.40,-51.04 6.66,-63.30"/>
+    <edge id="E3" from="J2" to="J4" numLanes="2"
+          shape="-11.52,-31.32 -2.40,-51.04 6.66,-63.30"/>
 </edges>
 ```
 
